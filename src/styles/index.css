@@ -1,17 +1,30 @@
+@font-face {
+    font-family: "Mexcellent";
+    src: url('../../public/fonts/mexcellent.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 
-@font-face { 
-    font-family: "Mexcellent"; 
-    src: url('../../public/fonts/mexcellent.ttf'); 
-    font-weight: normal; 
-    font-style: normal; 
-  } 
+@font-face {
+    font-family: "Mexcellent 3D";
+    src: url('../../public/fonts/mexcellent\ 3d.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 
-  @font-face { 
-    font-family: "Mexcellent 3D"; 
-    src: url('../../public/fonts/mexcellent\ 3d.ttf'); 
-    font-weight: normal; 
-    font-style: normal; 
-  } 
+@font-face {
+    font-family: "Pixellete";
+    src: url('../../public/fonts/Pixelette\ Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Pixellet";
+    src: url('../../public/fonts/pixellet.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 
 main {
     display: flex;
@@ -27,12 +40,30 @@ body {
 }
 
 .neon {
-    font-family: 'Mexcellent 3d', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    font-family: 'Pixellet', sans-serif;
     font-size: 130px;
-    color: #45dde2;    
-    font-weight: 400;
+    /* color: #45dde2; */
+    font-weight: normal;
     letter-spacing: 8px;
-    text-shadow: 1px 0px 4px #210685, 2px 0px 4px #420574, 3px 0px 4px #7c047c, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA, 40px 0vw 200px #D42CCA;
+    color: #fff;
+    text-shadow:
+        0 0 7px #ffffff7e,
+        0 0 10px #ffffff7e,
+        0 0 21px #ffffff7e,
+        0 0 42px #45dde28f,
+        0 0 82px #45dde28f,
+        0 0 92px #45dde28f,
+        0 0 102px #45dde28f,
+        0 0 151px #45dde28f;
+
+    background-color: transparent;
+    position: absolute;
+    z-index: 99;
 }
 
 .flicker-slow {
