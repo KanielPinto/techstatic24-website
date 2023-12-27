@@ -1,6 +1,6 @@
 import "@/app/globals.css"
 import * as THREE from "three";
-import perlin, { material, options } from "../pages/perlin";
+import perlin, { material, options } from "../app/perlin";
 import Stats from "stats.js";
 import dynamic from "next/dynamic";
 
