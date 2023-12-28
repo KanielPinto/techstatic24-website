@@ -22,7 +22,7 @@ const Navbar = () => {
     return (
         <header>
             <nav className={`nav`}>
-                <a href="/"><Image
+                <a href=""><Image
                     src="/techstatic_logo.png"
                     width={110}
                     height={110}
