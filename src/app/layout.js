@@ -1,9 +1,6 @@
-import { Inter } from 'next/font/google'
-import './globals.css'
-import Background from '@/components/Background'
-import IndexPage from '@/pages'
-
-const inter = Inter({ subsets: ['latin'] })
+import "@/app/globals.css"
+import * as THREE from "three";
+import perlin, { material, options } from "../app/perlin";
 
 export const metadata = {
   title: 'Techstatic 2024 - A Digital Odyssey',
@@ -11,10 +8,12 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+
   return (
-    <html crossorigin="anonymous" lang="en">
+    <html crossOrigin="anonymous" lang="en">
       <body className={inter.className}>
-        {children}
+          {children}
+
       </body>
     </html>
   )

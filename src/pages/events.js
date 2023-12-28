@@ -1,20 +1,14 @@
-'use client'
-
+import Navbar from "@/components/Navbar";
 import * as THREE from "three";
 import perlin, { material, options } from "../app/perlin";
 import dynamic from "next/dynamic";
 import { useEffect } from "react"
-
-import "@/styles/index.css"
-import "@/app/globals.css"
-import Navbar from "@/components/Navbar"
-import "@/styles/nav.css";
 import Background from "@/components/Background";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
 
 
-export default function IndexPage() {
+export default function EventPage() {
     const router = useRouter();
 
 
@@ -91,39 +85,38 @@ export default function IndexPage() {
 
         let start = Date.now();
         animate();
-    },[router.asPath])
+    }, [])
 
     return (
-        <AnimatePresence mode="wait">
-            <motion.div
-                key={router.route}
-                initial="initialState"
-                animate="animateState"
-                exit="exitState"
-                transition={
-                    {
-                        duration: 0.75,
+        <>
+            <AnimatePresence mode="wait">
+                <motion.div
+                    key={router.route}
+                    initial="initialState"
+                    animate="animateState"
+                    exit="exitState"
+                    transition={
+                        {
+                            duration: 0.75,
+                        }
                     }
-                }
-                variants={{
-                    initialState: {
-                        opacity: 0,
-                    },
-                    animateState: {
-                        opacity: 1,
-                    },
-                    exitState: {
-                    },
-                }}
-            >
-                <div>
-                    <Navbar></Navbar>
-                    {/* <Background></Background> */}
-                    <h1 crossOrigin="anonymous" className="neon flicker-slow">Techstatic</h1>
-
-                </div>
-            </motion.div>
-        </AnimatePresence >
-
+                    variants={{
+                        initialState: {
+                            opacity: 0,
+                        },
+                        animateState: {
+                            opacity: 1,
+                        },
+                        exitState: {
+                        },
+                    }}
+                >
+                    <div>
+                        <Navbar></Navbar>
+                        {/* <Background></Background> */}
+                    </div>
+                </motion.div>
+            </AnimatePresence >
+        </>
     )
 }

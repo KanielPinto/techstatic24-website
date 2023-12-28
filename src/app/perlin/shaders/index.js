@@ -246,6 +246,7 @@ export const fragmentShader = () => {
       b = abs(qnoise);
     }
     gl_FragColor = vec4(99., 40., 235., 255.0) / 255.;
+
   }
   `;
 };
