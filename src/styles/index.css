@@ -12,12 +12,7 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: "Pixellete";
-    src: url('../../public/fonts/Pixelette\ Regular.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 @font-face {
     font-family: "Pixellet";
@@ -33,6 +28,7 @@ main {
     height: 100vh;
     background-color: black;
     margin: 0px;
+    z-index: -1;
 }
 
 body {
@@ -95,3 +91,12 @@ body {
         opacity: 0.4;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .neon{
+        font-size: 40px;
+    }
+}
+
+
+
