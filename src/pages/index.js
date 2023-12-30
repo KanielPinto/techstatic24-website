@@ -122,6 +122,9 @@ export default function IndexPage() {
                         <p crossOrigin="anonymous" className="neon-small">Digital Odyssey</p>
 
                     </div>
+                    <div className="events-section">
+                        <div>Events</div>
+                    </div>
                 </div>
             </motion.div>
         </AnimatePresence >
