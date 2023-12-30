@@ -20,15 +20,23 @@ header {
     top: 0;
 }
 
+
+.logo {
+    margin: 10px 0px;
+}
+
+
 nav {
     display: flex;
-    padding: 0px 16px;
+    padding: 0px 15px;
     justify-content: space-between;
     align-items: center;
     background-color: #f1f1f11a;
     position: fixed;
     width: 100%;
     z-index: 999;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
 }
 
 .nav__menu-bar {
@@ -49,7 +57,7 @@ nav {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 110px;
+    top: 95px;
     width: 100%;
     row-gap: 24px;
     right: -500px;
@@ -83,6 +91,11 @@ nav {
     align-items: center;
 }
 
+
+nav.transparent {
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
 @media screen and (min-width: 768px) {
     .nav__menu-bar {
         display: none;
@@ -114,4 +127,69 @@ nav {
     .nav__link:hover:before {
         width: 100%;
     }
+}
+
+
+
+#checkbox {
+    display: none;
+}
+
+.toggle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    transition-duration: .5s;
+}
+
+.bars {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(92, 130, 255);
+    border-radius: 4px;
+}
+
+#bar2 {
+    transition-duration: .8s;
+}
+
+#bar1 {
+    width: 50%;
+}
+
+#bar2 {
+    width: 75%;
+}
+
+#checkbox:checked+.toggle .bars {
+    position: absolute;
+    transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle #bar2 {
+    transform: scaleX(0);
+    transition-duration: .1s;
+}
+
+#checkbox:checked+.toggle #bar1 {
+    width: 100%;
+    transform: rotate(45deg);
+    transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle #bar3 {
+    width: 100%;
+    transform: rotate(-45deg);
+    transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle {
+    transition-duration: .5s;
+    transform: rotate(180deg);
 }

@@ -37,7 +37,7 @@ const Background = () => {
 
 
         document.body.appendChild(renderer.domElement);
-        document.body.style.cssText = "margin: 0; overflow: hidden";
+        document.body.style.cssText = "margin: 0; overflow-x: hidden; height: 100%";
 
 
         let animate = () => {
@@ -86,8 +86,6 @@ const Background = () => {
         animate();
 
     }, [router.asPath])
-
-
 }
 
 export default dynamic(() => Promise.resolve(Background), {

@@ -9,8 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-three/fiber": "^8.15.12",
-    "@types/three": "^0.160.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "framer-motion": "^10.16.16",
     "has-webgl": "^0.0.1",
@@ -18,8 +16,12 @@
     "react": "^18",
     "react-dom": "^18",
     "react-router-dom": "^6.21.1",
+    "react-text-typing-animation": "^1.0.0",
+    "react-type-animation": "^3.2.0",
     "stats.js": "^0.17.0",
-    "three": "^0.133.0"
+    "three": "^0.112.0",
+    "typewriter-effect": "^2.21.0",
+    "typing-text-animation": "^1.0.2"
   },
   "devDependencies": {
     "eslint": "^8",
