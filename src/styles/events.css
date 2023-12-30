@@ -10,6 +10,7 @@
     background-color: transparent;
     z-index: 999;
 }
+
 @font-face {
     font-family: "Pixellet";
     src: url('../../public/fonts/pixellet.ttf');
@@ -39,7 +40,7 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
     cursor: pointer;
-    border: 2px solid rgb(56, 182, 255) ;
+    border: 2px solid rgb(56, 182, 255);
     box-shadow: 0 0 10px rgba(254, 1, 154, 0.4);
     outline: none;
     display: flex;
@@ -122,6 +123,7 @@
     justify-content: center;
     column-gap: 50px;
 }
+
 .myCard {
     background-color: transparent;
     width: 70%;
@@ -220,15 +222,36 @@
         display: flex;
         flex-direction: column;
         width: 95%;
-        
+
     }
 
-    .horizontal-container .card-container{
+    .horizontal-container .card-container {
         flex-direction: column;
     }
 
     *::-webkit-scrollbar {
         width: 0px;
 
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+
+    }
+
+    .card-subtitle {
+        font-size: 1rem;
+    }
+
+    .frontSide::before,
+    .backSide::before {
+
+        filter: blur(0px);
+    }
+
+    .frontSide,
+    .backSide {
+
+        filter: blur(0px);
     }
 }
