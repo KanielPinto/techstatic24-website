@@ -170,7 +170,7 @@ export default function EventPage() {
                                             <div className="frontSide">
                                                 <Image src="/icons/datadetective.png" width={100} height={100}></Image>
 
-                                                <p className="card-title">Let's Get Quizzical</p>
+                                                <p className="card-title">Let&#39;s Get Quizzical</p>
                                                 <p>Enchanting Pixels: A Digital Fantasy Showcase</p>
 
                                             </div>
