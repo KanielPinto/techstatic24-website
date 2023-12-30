@@ -24,14 +24,14 @@
     border-radius: 0.5em;
     transition: 0.3s;
     background-color: rgba(254, 1, 154, 0.2);
-    fill: rgb(254, 1, 154);
+    fill: rgb(56, 182, 255);
     font-family: monospace;
     font-weight: bolder;
     font-size: large;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     cursor: pointer;
-    border: 2px solid rgb(254, 1, 154);
+    border: 2px solid rgb(56, 182, 255) ;
     box-shadow: 0 0 10px rgba(254, 1, 154, 0.4);
     outline: none;
     display: flex;
@@ -57,41 +57,37 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    row-gap: 20px;
+    row-gap: 40px;
 }
 
-.horizontal-container .card-container {
-    margin: 2rem 0px;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    column-gap: 50px;
-}
+
 
 /* Container for the grid layout */
 .grid-container {
     display: grid;
     justify-content: center;
     align-items: center;
+    align-content: center;
     width: 80%;
     margin: auto;
     grid-template-columns: repeat(2, 1fr);
     /* Two columns */
-    gap: 60px;
+    column-gap: 100px;
+    row-gap: 30px;
     /* Adjust the gap between containers */
 }
 
 /* Style for vertically long containers */
 .vertical-container {
-    border: 2px solid rgb(254, 1, 154);
+    border: 2px solid rgb(99, 40, 235);
     border-radius: 0.5em;
     box-shadow: 0 0 10px rgba(254, 1, 154, 0.4);
     padding: 20px;
     margin: 10px;
-    background-color: rgba(254, 1, 154, 0.2);
+    background-color: rgba(99, 40, 235, 0.2);
     color: aliceblue;
+    width: 100%;
+
 }
 
 /* Style for horizontally long container */
@@ -104,8 +100,18 @@
     margin: 10px;
     background-color: rgba(254, 1, 154, 0.2);
     color: aliceblue;
+    width: 100%;
 }
 
+.horizontal-container .card-container {
+    margin: 2rem 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+}
 .myCard {
     background-color: transparent;
     width: 70%;
@@ -150,6 +156,7 @@
     color: white;
     box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
     font-weight: 700;
+    opacity: 0.85;
 }
 
 .frontSide,
@@ -172,8 +179,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     content: '';
-    width: 110%;
-    height: 110%;
+    width: 102%;
+    height: 102%;
     position: absolute;
     z-index: -1;
     border-radius: 1em;
@@ -192,5 +199,19 @@
 
     100% {
         opacity: 0.3;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .horizontal-container .card-container{
+        flex-direction: column;
     }
 }
