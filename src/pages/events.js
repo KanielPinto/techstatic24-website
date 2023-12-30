@@ -50,7 +50,8 @@ export default function EventPage() {
                                         <div className="myCard">
                                             <div className="innerCard">
                                                 <div className="frontSide">
-                                                    <p className="card-title">FRONT SIDE</p>
+                                                    {/* <Image src=""></Image> */}
+                                                    <p className="card-title">Data Detective:<br />A Murder Mystery Quest</p>
                                                     <p>Hover Me</p>
                                                 </div>
                                                 <div className="backSide">
