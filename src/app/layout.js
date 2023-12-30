@@ -1,6 +1,5 @@
 import "@/app/globals.css"
-import * as THREE from "three";
-import perlin, { material, options } from "../app/perlin";
+import Navbar from "@/components/Navbar"
 
 export const metadata = {
   title: 'Techstatic 2024 - A Digital Odyssey',
@@ -11,9 +10,8 @@ export default function RootLayout({ children }) {
 
   return (
     <html crossOrigin="anonymous" lang="en">
-      <body className={inter.className}>
+      <body>
           {children}
-
       </body>
     </html>
   )

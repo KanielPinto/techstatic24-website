@@ -6,89 +6,16 @@ import { useEffect } from "react"
 import Background from "@/components/Background";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
-
+import PageHeader from "@/components/PageHeader";
+import "@/styles/events.css"
 
 export default function EventPage() {
     const router = useRouter();
-
-
-    useEffect(() => {
-        let camera = new THREE.PerspectiveCamera(
-            50,
-            window.innerWidth / window.innerHeight,
-            1,
-            1000
-        );
-        camera.position.z = 10;
-
-        let geometry = new THREE.BoxBufferGeometry(200, 200, 200);
-        // material = new THREE.MeshNormalMaterial();
-        let mesh = new THREE.Mesh(geometry, material);
-
-        let scene = new THREE.Scene();
-
-        // scene.add(mesh);
-        scene.add(perlin);
-
-        let renderer = new THREE.WebGLRenderer();
-        renderer.setPixelRatio(1);
-        renderer.setSize(window.innerWidth, window.innerHeight);
-
-        // controls = new OrbitControls(camera, renderer.domElement);
-
-
-        document.body.appendChild(renderer.domElement);
-        document.body.style.cssText = "margin: 0; overflow: hidden";
-
-
-        let animate = () => {
-
-            animatePerlin();
-            animateMaterial();
-
-            camera.lookAt(scene.position);
-            // controls && controls.update();
-            renderer.render(scene, camera);
-
-
-            requestAnimationFrame(animate);
-        };
-
-        let animatePerlin = () => {
-            const { sinVel, ampVel } = options.spin;
-            const performance = Date.now() * 0.003;
-            perlin.rotation.x +=
-                (Math.sin(performance * sinVel) * ampVel * Math.PI) / 180;
-            perlin.rotation.y += options.perlin.vel;
-        };
-
-        let animateMaterial = () => {
-            material.uniforms["time"].value =
-                options.perlin.speed * (Date.now() - start);
-            material.uniforms["pointscale"].value = options.perlin.perlins;
-            material.uniforms["decay"].value = options.perlin.decay;
-            material.uniforms["complex"].value = options.perlin.complex;
-            material.uniforms["waves"].value = options.perlin.waves;
-            material.uniforms["eqcolor"].value = options.perlin.eqcolor;
-            material.uniforms["fragment"].value = options.perlin.fragment;
-            material.uniforms["redhell"].value = options.perlin.redhell;
-        };
-
-        let onWindowResize = () => {
-            camera.aspect = window.innerWidth / window.innerHeight;
-            camera.updateProjectionMatrix();
-            renderer.setSize(window.innerWidth, window.innerHeight);
-        };
-
-
-        window.addEventListener("resize", onWindowResize, false);
-
-        let start = Date.now();
-        animate();
-    }, [])
+    let title = "Events";
+    let subtitle = "A Glimpse into our Events";
 
     return (
-        <>
+        <div className="main-container">
             <AnimatePresence mode="wait">
                 <motion.div
                     key={router.route}
@@ -112,11 +39,133 @@ export default function EventPage() {
                     }}
                 >
                     <div>
-                        <Navbar></Navbar>
-                        {/* <Background></Background> */}
+                        <div>
+                            <PageHeader title={title} subtitle={subtitle}></PageHeader>
+
+                            <div className="grid-container">
+                                <div className="vertical-container">
+                                    <h1>IT Events</h1>
+                                    <div className="card-container">
+
+                                        <div className="myCard">
+                                            <div className="innerCard">
+                                                <div className="frontSide">
+                                                    <p className="card-title">FRONT SIDE</p>
+                                                    <p>Hover Me</p>
+                                                </div>
+                                                <div className="backSide">
+                                                    <p className="card-title">BACK SIDE</p>
+                                                    <p>Leave Me</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="myCard">
+                                            <div className="innerCard">
+                                                <div className="frontSide">
+                                                    <p className="card-title">FRONT SIDE</p>
+                                                    <p>Hover Me</p>
+                                                </div>
+                                                <div className="backSide">
+                                                    <p className="card-title">BACK SIDE</p>
+                                                    <p>Leave Me</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="myCard">
+                                            <div className="innerCard">
+                                                <div className="frontSide">
+                                                    <p className="card-title">FRONT SIDE</p>
+                                                    <p>Hover Me</p>
+                                                </div>
+                                                <div className="backSide">
+                                                    <p className="card-title">BACK SIDE</p>
+                                                    <p>Leave Me</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div className="vertical-container">
+                                    <h1>Stats Events</h1>
+                                    <div className="card-container">
+
+                                        <div className="myCard">
+                                            <div className="innerCard">
+                                                <div className="frontSide">
+                                                    <p className="card-title">FRONT SIDE</p>
+                                                    <p>Hover Me</p>
+                                                </div>
+                                                <div className="backSide">
+                                                    <p className="card-title">BACK SIDE</p>
+                                                    <p>Leave Me</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="myCard">
+                                            <div className="innerCard">
+                                                <div className="frontSide">
+                                                    <p className="card-title">FRONT SIDE</p>
+                                                    <p>Hover Me</p>
+                                                </div>
+                                                <div className="backSide">
+                                                    <p className="card-title">BACK SIDE</p>
+                                                    <p>Leave Me</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="myCard">
+                                            <div className="innerCard">
+                                                <div className="frontSide">
+                                                    <p className="card-title">FRONT SIDE</p>
+                                                    <p>Hover Me</p>
+                                                </div>
+                                                <div className="backSide">
+                                                    <p className="card-title">BACK SIDE</p>
+                                                    <p>Leave Me</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="horizontal-container">
+                                    <h1>Crossover Events</h1>
+
+                                    <div className="card-container">
+
+                                        <div className="myCard">
+                                            <div className="innerCard">
+                                                <div className="frontSide">
+                                                    <p className="card-title">FRONT SIDE</p>
+                                                    <p>Hover Me</p>
+                                                </div>
+                                                <div className="backSide">
+                                                    <p className="card-title">BACK SIDE</p>
+                                                    <p>Leave Me</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="myCard">
+                                            <div className="innerCard">
+                                                <div className="frontSide">
+                                                    <p className="card-title">FRONT SIDE</p>
+                                                    <p>Hover Me</p>
+                                                </div>
+                                                <div className="backSide">
+                                                    <p className="card-title">BACK SIDE</p>
+                                                    <p>Leave Me</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </motion.div>
             </AnimatePresence >
-        </>
+        </div>
     )
 }
