@@ -57,8 +57,8 @@ export default function EventPage() {
                                                 {/* <p>Hover Me</p> */}
                                             </div>
                                             <div className="backSide">
-                                                <p className="card-title">BACK SIDE</p>
-                                                {/* <p>Leave Me</p> */}
+                                                <h1 className="titleone">Hackathon</h1>
+                                                <p className="titletwo"> Battleground for brilliant minds . Unravel progressively intricate coding questions and then develop an app/ website for a social cause .</p>
                                             </div>
                                         </div>
                                     </div>
@@ -71,7 +71,8 @@ export default function EventPage() {
                                                 <p>May the Odds be Ever in your Favour!</p>
                                             </div>
                                             <div className="backSide">
-                                                <p className="card-title">BACK SIDE</p>
+                                                <h1 className="titleone">E-lympics</h1>
+                                                <p className="titletwo">Get ready for the ultimate showdown in our Esports Competition! Contingents face off in thrilling online gaming tournaments featuring popular titles like Valorant, call of duty, etc.</p>
 
                                             </div>
                                         </div>
@@ -82,12 +83,12 @@ export default function EventPage() {
                                                 <Image src="/icons/digitales.png" width={100} height={100}></Image>
 
                                                 <p className="card-title">Digitales</p>
-                                                <p>Enchanting Pixels: A Digital Fantasy Showcase</p>
+                                                <p className="titletwo">Enchanting Pixels: A Digital Fantasy Showcase</p>
 
                                             </div>
                                             <div className="backSide">
-                                                <p className="card-title">BACK SIDE</p>
-                                                <p>Leave Me</p>
+                                                <h1 className="titleone">Digitales</h1>
+                                                <p className="titletwo"> reimagine a classic childhood story through a contemporary digital lens.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -108,8 +109,9 @@ export default function EventPage() {
                                                 {/* <p>Hover Me</p> */}
                                             </div>
                                             <div className="backSide">
-                                                <p className="card-title">BACK SIDE</p>
-                                                {/* <p>Leave Me</p> */}
+                                                <h1 className="titleone">Stat Wars</h1>
+                                                <p className="titletwo">group event where you decode patterns , trends and insights on a randomly selected industry of the four ( sports ,travel / tourism , apparel , music ) and then present your analysis.</p>
+                                               
                                             </div>
                                         </div>
                                     </div>
@@ -122,7 +124,8 @@ export default function EventPage() {
                                                 <p>Outwit, Outplay, Outstat</p>
                                             </div>
                                             <div className="backSide">
-                                                <p className="card-title">BACK SIDE</p>
+                                                <h1 className="titleone">Family Feud</h1>
+                                                <p className="titletwo">The clash of clans, where two spirited teams go head-to- head, battling wits and quick thinking to unearth the most popular survey answer.</p>
 
                                             </div>
                                         </div>
@@ -137,8 +140,10 @@ export default function EventPage() {
 
                                             </div>
                                             <div className="backSide">
-                                                <p className="card-title">BACK SIDE</p>
-                                                <p>Leave Me</p>
+                                                <h1 className="titleone">Data Detective</h1>
+                                                <p>murder mystery quest</p>
+                                                <p className="titletwo"> A group event, where you conduct analysis to narrow down suspects to one murderer.</p>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -160,7 +165,8 @@ export default function EventPage() {
                                                 <p>Outwit, Outplay, Outstat</p>
                                             </div>
                                             <div className="backSide">
-                                                <p className="card-title">BACK SIDE</p>
+                                                <h1 className="titleone">Escape Room</h1>
+                                                <p className="titletwo">Can you outsmart the algorithms and break free from the digital labyrinth? Challenge your wits, embrace the challenge, and decode your way to victory!</p>
 
                                             </div>
                                         </div>
@@ -175,8 +181,8 @@ export default function EventPage() {
 
                                             </div>
                                             <div className="backSide">
-                                                <p className="card-title">BACK SIDE</p>
-                                                <p>Leave Me</p>
+                                                <h1 className="titleone">Let&#39;s Get Quizzical</h1>
+                                                <p className="titletwo">This event is a two-person quiz where they will be asked both statistical and IT questions respectively and they must answer them.</p>
                                             </div>
                                         </div>
                                     </div>
