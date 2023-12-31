@@ -372,6 +372,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    .hero-text{
+        height: 90vh;
+    }
     .neon {
         font-size: 40px;
     }
