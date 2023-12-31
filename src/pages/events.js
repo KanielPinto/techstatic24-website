@@ -83,7 +83,7 @@ export default function EventPage() {
                                                 <Image src="/icons/digitales.png" width={100} height={100}></Image>
 
                                                 <p className="card-title">Digitales</p>
-                                                <p className="titletwo">Enchanting Pixels: A Digital Fantasy Showcase</p>
+                                                <p>Enchanting Pixels: A Digital Fantasy Showcase</p>
 
                                             </div>
                                             <div className="backSide">
@@ -110,6 +110,8 @@ export default function EventPage() {
                                             </div>
                                             <div className="backSide">
                                                 <h1 className="titleone">Stat Wars</h1>
+                                                <p>Episode IV</p>
+
                                                 <p className="titletwo">group event where you decode patterns , trends and insights on a randomly selected industry of the four ( sports ,travel / tourism , apparel , music ) and then present your analysis.</p>
                                                
                                             </div>
@@ -125,6 +127,8 @@ export default function EventPage() {
                                             </div>
                                             <div className="backSide">
                                                 <h1 className="titleone">Family Feud</h1>
+                                                <p>Stats Edition</p>
+
                                                 <p className="titletwo">The clash of clans, where two spirited teams go head-to- head, battling wits and quick thinking to unearth the most popular survey answer.</p>
 
                                             </div>
@@ -141,7 +145,7 @@ export default function EventPage() {
                                             </div>
                                             <div className="backSide">
                                                 <h1 className="titleone">Data Detective</h1>
-                                                <p>murder mystery quest</p>
+                                                <p>Murder Mystery Quest</p>
                                                 <p className="titletwo"> A group event, where you conduct analysis to narrow down suspects to one murderer.</p>
                                                 
                                             </div>
@@ -174,7 +178,7 @@ export default function EventPage() {
                                     <div className="myCard">
                                         <div className="innerCard">
                                             <div className="frontSide">
-                                                <Image src="/icons/datadetective.png" width={100} height={100}></Image>
+                                                <Image src="/icons/quiz.png" width={100} height={100}></Image>
 
                                                 <p className="card-title">Let&#39;s Get Quizzical</p>
                                                 <p>Enchanting Pixels: A Digital Fantasy Showcase</p>
@@ -182,7 +186,7 @@ export default function EventPage() {
                                             </div>
                                             <div className="backSide">
                                                 <h1 className="titleone">Let&#39;s Get Quizzical</h1>
-                                                <p className="titletwo">This event is a two-person quiz where they will be asked both statistical and IT questions respectively and they must answer them.</p>
+                                                <p className="titletwo">This event is a two-person quiz where they will be asked both statistical and I.T. questions respectively and they must answer them.</p>
                                             </div>
                                         </div>
                                     </div>

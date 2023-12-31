@@ -61,7 +61,7 @@ export default function IndexPage() {
                                     900,
                                     "The Best (and only) IT x Stats Fest.",
                                     1000,
-                                    "All of these things AND MORE!!!",
+                                    "All of these AND MORE!!!",
                                     1000,
                                 ]}
                                 wrapper="span"
@@ -83,7 +83,40 @@ export default function IndexPage() {
                     </div>
                     <div className="events-section">
                         <div className="events-section-header">Ecstatic for Techstatic?</div>
-                        <div className="events-section-subtitle"></div>
+                        <div className="events-section-subtitle">Join us on our Digital Odyssey :&#41;</div>
+                        <div className="horizontal-container">
+                            <a
+                                class="btn-class-name1"
+                                href="/events"
+                                type="button"
+                            >
+                                <span>Dive into our exciting Events!</span>
+                                <svg
+                                    viewBox="0 0 320 512"
+                                    height="6.5em"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                    ></path>
+                                </svg>
+                            </a>
+                            <div
+                                class="btn-class-name2"
+                                type="button"
+                            >
+                                <span>Check out our Exciting Activities!<br />&#40;Coming Soon&#41;</span>
+                                <svg
+                                    viewBox="0 0 320 512"
+                                    height="6.5em"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                    ></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </motion.div>

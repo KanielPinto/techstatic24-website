@@ -18,7 +18,12 @@
     font-style: normal;
 }
 
-
+@font-face {
+    font-family: "Staatliches";
+    src: url('/fonts/Staatliches-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 
 *::-webkit-scrollbar-thumb {
     border-radius: 10px;
@@ -137,7 +142,7 @@
     text-align: center;
     margin: 0;
     font-family: "pixellet";
-    
+
 }
 
 .innerCard {
@@ -201,13 +206,18 @@
     filter: blur(20px);
     animation: animate 5s linear infinite;
 }
+
 .titleone {
-   color: black;
+    font-family: 'pixellet', sans-serif;
+    line-height: 1;
 }
-.titletwo{
+
+.titletwo {
     padding-top: 25px;
     padding-left: 25px;
     padding-right: 25px;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 1.3rem;
 
 }
 
@@ -246,6 +256,7 @@
 
     .card-title {
         font-size: 1.5rem;
+        z-index: 9999;
 
     }
 
@@ -255,13 +266,26 @@
 
     .frontSide::before,
     .backSide::before {
-
-        filter: blur(0px);
+        -webkit-font-smoothing: subpixel-antialiased;
+        filter: none;
     }
 
     .frontSide,
     .backSide {
+        -webkit-font-smoothing: subpixel-antialiased;
+        filter: none;
+    }
 
-        filter: blur(0px);
+
+    .myCard{
+        filter: none;
+    }
+    .titleone {
+        font-family: 'pixellet', sans-serif;
+        font-size: 2rem;
+    }
+
+    .titletwo{
+        font-size: 1rem;
     }
 }
