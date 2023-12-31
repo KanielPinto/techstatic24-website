@@ -12,86 +12,11 @@ import "@/styles/nav.css";
 import Background from "@/components/Background";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
+import { TypeAnimation } from "react-type-animation";
 
 
 export default function IndexPage() {
     const router = useRouter();
-
-
-    // useEffect(() => {
-    //     let camera = new THREE.PerspectiveCamera(
-    //         50,
-    //         window.innerWidth / window.innerHeight,
-    //         1,
-    //         1000
-    //     );
-    //     camera.position.z = 10;
-
-    //     let geometry = new THREE.BoxBufferGeometry(200, 200, 200);
-    //     // material = new THREE.MeshNormalMaterial();
-    //     let mesh = new THREE.Mesh(geometry, material);
-
-    //     let scene = new THREE.Scene();
-
-    //     // scene.add(mesh);
-    //     scene.add(perlin);
-
-    //     let renderer = new THREE.WebGLRenderer();
-    //     renderer.setPixelRatio(1);
-    //     renderer.setSize(window.innerWidth, window.innerHeight);
-
-    //     // controls = new OrbitControls(camera, renderer.domElement);
-
-
-    //     document.body.appendChild(renderer.domElement);
-    //     document.body.style.cssText = "margin: 0; overflow: hidden";
-
-
-    //     let animate = () => {
-
-    //         animatePerlin();
-    //         animateMaterial();
-
-    //         camera.lookAt(scene.position);
-    //         // controls && controls.update();
-    //         renderer.render(scene, camera);
-
-
-    //         requestAnimationFrame(animate);
-    //     };
-
-    //     let animatePerlin = () => {
-    //         const { sinVel, ampVel } = options.spin;
-    //         const performance = Date.now() * 0.003;
-    //         perlin.rotation.x +=
-    //             (Math.sin(performance * sinVel) * ampVel * Math.PI) / 180;
-    //         perlin.rotation.y += options.perlin.vel;
-    //     };
-
-    //     let animateMaterial = () => {
-    //         material.uniforms["time"].value =
-    //             options.perlin.speed * (Date.now() - start);
-    //         material.uniforms["pointscale"].value = options.perlin.perlins;
-    //         material.uniforms["decay"].value = options.perlin.decay;
-    //         material.uniforms["complex"].value = options.perlin.complex;
-    //         material.uniforms["waves"].value = options.perlin.waves;
-    //         material.uniforms["eqcolor"].value = options.perlin.eqcolor;
-    //         material.uniforms["fragment"].value = options.perlin.fragment;
-    //         material.uniforms["redhell"].value = options.perlin.redhell;
-    //     };
-
-    //     let onWindowResize = () => {
-    //         camera.aspect = window.innerWidth / window.innerHeight;
-    //         camera.updateProjectionMatrix();
-    //         renderer.setSize(window.innerWidth, window.innerHeight);
-    //     };
-
-
-    //     window.addEventListener("resize", onWindowResize, false);
-
-    //     let start = Date.now();
-    //     animate();
-    // },[])
 
     return (
         <AnimatePresence mode="wait">
@@ -119,11 +44,46 @@ export default function IndexPage() {
                 <div className="main-container">
                     <div className="hero-text">
                         <h1 crossOrigin="anonymous" className="neon flicker-slow">Techstatic</h1>
-                        <p crossOrigin="anonymous" className="neon-small">Digital Odyssey</p>
+                        <p crossOrigin="anonymous" className="neon-small">Digital Odyssey<br /><span className="neon-smaller">A Data Driven Adventure</span></p>
 
                     </div>
+                    <div className="about-section">
+                        <div className="about-section-text-container">
+                            <h2 className="about-section-header">Techstatic is...</h2>
+                            <TypeAnimation
+                                sequence={[
+                                    // Same substring at the start will only be typed out once, initially
+                                    "An I.T. Festival.",
+                                    900,
+                                    "A Statistics Festival.",
+                                    900,
+                                    "A Celebration of Tech.",
+                                    900,
+                                    "The Best (and only) IT x Stats Fest.",
+                                    1000,
+                                    "All of these things AND MORE!!!",
+                                    1000,
+                                ]}
+                                wrapper="span"
+                                speed={20}
+                                repeat={Infinity}
+                                className="about-section-type"
+                            />
+                        </div>
+                        <div className="flex-container">
+                            <div className="vertical-container1">
+                                <div className="card-title">Our Vision</div>
+                                <div className="card-content">Techstatic is envisioned as a dynamic event that transcends traditional boundaries, offering a unique space for professionals, researchers, and enthusiasts to explore the limitless potentials of statistics and information technology.</div>
+                            </div>
+                            <div className="vertical-container2">
+                                <div className="card-title">Our Theme</div>
+                                <div className="card-content">Embark on a transformative odyssey in the digital realm with &#39;Digital Odyssey: A Data-Driven Adventure.&#39; <br /> Here, participants are modern-day explorers navigating data horizons. The theme encourages using data as a guiding star for collaborative problem-solving, pushing the boundaries of knowledge in ethical and innovative ways.</div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="events-section">
-                        <div>Events</div>
+                        <div className="events-section-header">Ecstatic for Techstatic?</div>
+                        <div className="events-section-subtitle"></div>
                     </div>
                 </div>
             </motion.div>
