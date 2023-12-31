@@ -108,7 +108,7 @@ body {
     line-height: 1.2;
 }
 
-.neon-smaller{
+.neon-smaller {
     font-size: 2rem;
     font-family: 'pixellet', sans-serif;
 }
@@ -181,7 +181,7 @@ body {
 .flex-container {
     display: flex;
     flex-direction: column;
-    
+
     padding: 50px;
     width: 50%;
     row-gap: 50px;
@@ -189,9 +189,9 @@ body {
 
 /* Style for vertically long containers */
 .vertical-container1 {
-    border: 2px solid rgb(255, 87, 51 );
+    border: 2px solid rgb(255, 87, 51);
     border-radius: 0.5em;
-    box-shadow: 0 0 10px rgba(255, 87, 51 , 0.4);
+    box-shadow: 0 0 10px rgba(255, 87, 51, 0.4);
     padding: 0px 20px 20px 20px;
     margin: auto;
     background-color: rgba(255, 88, 51, 0.479);
@@ -249,11 +249,127 @@ body {
     font-family: 'pixellet', sans-serif;
 }
 
-.events-section-subtitle{
+.events-section-subtitle {
     font-size: 2rem;
     font-family: 'pixellet', sans-serif;
+    text-align: center;
 }
 
+
+.btn-class-name1 {
+    color: rgb(254, 234, 246);
+    border-radius: 0.5em;
+    transition: 0.3s;
+    background-color: rgba(92, 225, 230, 0.2);
+    fill: rgb(92, 225, 230);
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border: 2px solid rgb(92, 225, 230);
+    box-shadow: 0 0 10px rgba(92, 225, 230, 0.4);
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: 0.5em 1em;
+    margin: 1em;
+    width: 30%;
+    height: 220px;
+}
+
+.btn-class-name1:hover {
+    box-shadow: 0 0 0 5px rgba(92, 225, 230, 0.5);
+}
+
+.btn-class-name1 span {
+    transform: scale(0.95);
+    transition: 0.3s;
+}
+
+.btn-class-name1:hover span {
+    transform: scale(1);
+}
+
+.btn-class-name1 svg {
+    font-size: 0;
+    transform: scale(0.5) translateX(0%) rotate(-180deg);
+    transition: 0.3s;
+}
+
+.btn-class-name1:hover svg {
+    font-size: 20px;
+    transform: scale(1) translateX(20%) rotate(0deg);
+}
+
+.btn-class-name1:active {
+    transition: 0s;
+    box-shadow: 0 0 0 5px rgb(92, 225, 230);
+}
+
+
+.btn-class-name2 {
+    color: rgb(254, 234, 246);
+    border-radius: 0.5em;
+    transition: 0.3s;
+    background-color: rgba(220, 221, 221, 0.2);
+    fill: rgb(220, 221, 221);
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border: 2px solid rgb(220, 221, 221);
+    box-shadow: 0 0 10px rgba(220, 221, 221, 0.4);
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: 0.5em 1em;
+    margin: 1em;
+    width: 30%;
+    height: 220px;
+}
+
+.btn-class-name2:hover {
+    box-shadow: 0 0 0 5px rgba(220, 221, 221, 0.5);
+}
+
+.btn-class-name2 span {
+    transform: scale(0.95);
+    transition: 0.3s;
+}
+
+.btn-class-name2:hover span {
+    transform: scale(1);
+}
+
+.btn-class-name2 svg {
+    font-size: 0;
+    transform: scale(0.5) translateX(0%) rotate(-180deg);
+    transition: 0.3s;
+}
+
+.btn-class-name2:hover svg {
+    font-size: 20px;
+    transform: scale(1) translateX(20%) rotate(0deg);
+}
+
+.btn-class-name2:active {
+    transition: 0s;
+    box-shadow: 0 0 0 5px rgb(220, 221, 221);
+}
+
+
+.horizontal-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: auto;
+}
 
 @media screen and (max-width: 768px) {
     .neon {
@@ -261,8 +377,69 @@ body {
     }
 
     .neon-small {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
+
+    .neon-smaller {
+        font-size: 0.8rem;
+    }
+
+    .about-section {
+        flex-direction: column;
+        padding: 100px 30px 100px 30px;
+        height: auto;
+    }
+
+    .about-section-header {
+        font-size: 2rem;
+    }
+
+    .about-section-type {
+        font-size: 5rem;
+
+    }
+
+    .about-section-text-container {
+        width: 90%;
+        height: 470px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0px
+    }
+
+    .events-section {
+        padding: 100px 30px 100px 30px;
+        flex-direction: column;
+
+    }
+
+    .events-section-header {
+        font-size: 2.5rem;
+    }
+
+    .events-section-subtitle {
+        font-size: 1.3rem;
+    }
+
+    .horizontal-container{
+        flex-direction: column;
+    }
+
+    .btn-class-name1, .btn-class-name2{
+        width: 100%;
+        height: 260px;
+    }
+
+
+    .btn-class-name1 svg, .btn-class-name2 svg {
+        font-size: 20px;
+        transform: scale(1) translateX(20%) rotate(0deg);
+    }
+
+   
 
     *::-webkit-scrollbar {
         width: 0px;
