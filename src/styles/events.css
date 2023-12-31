@@ -137,6 +137,7 @@
     text-align: center;
     margin: 0;
     font-family: "pixellet";
+    
 }
 
 .innerCard {
@@ -199,6 +200,15 @@
     border-radius: 1em;
     filter: blur(20px);
     animation: animate 5s linear infinite;
+}
+.titleone {
+   color: black;
+}
+.titletwo{
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+
 }
 
 @keyframes animate {
