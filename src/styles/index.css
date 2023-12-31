@@ -413,7 +413,7 @@ body {
     .events-section {
         padding: 100px 30px 100px 30px;
         flex-direction: column;
-
+        height: auto;
     }
 
     .events-section-header {

@@ -43,7 +43,7 @@ export default function IndexPage() {
             >
                 <div className="main-container">
                     <div className="hero-text">
-                        <h1 crossOrigin="anonymous" className="neon flicker-slow">Techstatic</h1>
+                        <h1 crossOrigin="anonymous" className="neon">Techstatic</h1>
                         <p crossOrigin="anonymous" className="neon-small">Digital Odyssey<br /><span className="neon-smaller">A Data Driven Adventure</span></p>
 
                     </div>
