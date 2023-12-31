@@ -111,6 +111,7 @@ body {
 .neon-smaller {
     font-size: 2rem;
     font-family: 'pixellet', sans-serif;
+    margin-top: 10px;
 }
 
 .hero-text {

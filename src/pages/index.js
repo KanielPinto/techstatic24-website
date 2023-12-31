@@ -13,6 +13,7 @@ import Background from "@/components/Background";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
 import { TypeAnimation } from "react-type-animation";
+import Countdown from "@/components/Countdown";
 
 
 export default function IndexPage() {
@@ -45,7 +46,7 @@ export default function IndexPage() {
                     <div className="hero-text">
                         <h1 crossOrigin="anonymous" className="neon">Techstatic</h1>
                         <p crossOrigin="anonymous" className="neon-small">Digital Odyssey<br /><span className="neon-smaller">A Data Driven Adventure</span></p>
-
+                        <Countdown></Countdown>
                     </div>
                     <div className="about-section">
                         <div className="about-section-text-container">
