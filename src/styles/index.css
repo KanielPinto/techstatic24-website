@@ -1,25 +1,19 @@
 @font-face {
-    font-family: "Mexcellent";
-    src: url('../../public/fonts/mexcellent.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Mexcellent 3D";
-    src: url('../../public/fonts/mexcellent\ 3d.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-
-@font-face {
     font-family: "Pixellet";
-    src: url('../../public/fonts/pixellet.ttf');
+    src: url('/fonts/pixellet.ttf');
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: "Staatliches";
+    src: url('/fonts/Staatliches-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic&family=Orbitron&family=Staatliches&display=swap');
 
 *::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px transparent;
@@ -89,6 +83,7 @@ body {
 
 .neon-small {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -110,6 +105,12 @@ body {
 
     background-color: transparent;
     z-index: 99;
+    line-height: 1.2;
+}
+
+.neon-smaller{
+    font-size: 2rem;
+    font-family: 'pixellet', sans-serif;
 }
 
 .hero-text {
@@ -147,13 +148,112 @@ body {
     }
 }
 
-.events-section {
-    height: 95vh;
+.about-section {
+    height: 91vh;
     font-size: 2rem;
-    backdrop-filter: hue-rotate(120deg);
+    backdrop-filter: hue-rotate(45deg);
     color: white;
     width: 100%;
+    padding: 100px;
+    display: flex;
+    align-items: baseline;
+
 }
+
+.about-section-text-container {
+    width: 50%;
+    margin: 0px auto;
+}
+
+
+.about-section-header {
+    font-size: 3rem;
+
+}
+
+.about-section-type {
+    font-size: 9rem;
+    font-family: 'Staatliches', sans-serif;
+    line-height: 1;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 50px;
+    width: 50%;
+    row-gap: 50px;
+}
+
+/* Style for vertically long containers */
+.vertical-container1 {
+    border: 2px solid rgb(255, 87, 51 );
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px rgba(255, 87, 51 , 0.4);
+    padding: 0px 20px 20px 20px;
+    margin: auto;
+    background-color: rgba(255, 88, 51, 0.479);
+    color: aliceblue;
+    width: 100%;
+
+
+}
+
+.vertical-container2 {
+    border: 2px solid rgb(61, 216, 252);
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px rgba(61, 216, 252, 0.4);
+    padding: 0px 20px 20px 20px;
+    margin: auto;
+    background-color: rgba(61, 216, 252, 0.2);
+    color: aliceblue;
+    width: 100%;
+
+
+}
+
+.card-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 10px 0px;
+    font-family: "Pixellet", sans-serif;
+}
+
+
+.card-content {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Staatliches", sans-serif;
+}
+
+
+.events-section {
+    height: 91vh;
+    font-size: 2rem;
+    backdrop-filter: hue-rotate(60deg);
+    color: white;
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.events-section-header {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'pixellet', sans-serif;
+}
+
+.events-section-subtitle{
+    font-size: 2rem;
+    font-family: 'pixellet', sans-serif;
+}
+
 
 @media screen and (max-width: 768px) {
     .neon {

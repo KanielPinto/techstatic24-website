@@ -18,12 +18,6 @@ const MENU_LIST = [
 const Navbar = () => {
     const [navActive, setNavActive] = useState(null);
     const [activeIdx, setActiveIdx] = useState(-1);
-    const [navbar, setNavbar] = useState(false);
-
-    const changeBg = () => {
-        console.log(window.scrollY);
-    };
-
 
 
     useEffect(() => {
