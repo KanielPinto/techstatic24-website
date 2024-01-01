@@ -35,7 +35,7 @@
     width: 100%;
     height: 100%;
     overflow-y: auto;
-    backdrop-filter: hue-rotate(90deg);
+    backdrop-filter: hue-rotate(70deg);
 
 }
 
@@ -70,23 +70,23 @@
 }
 
 .dept-container-left {
-    border: 2px solid rgb(255, 230, 0);
+    border: 2px solid rgb(255, 87, 51);
     border-radius: 0.5em;
-    box-shadow: 0 0 10px rgba(255, 230, 0, 0.4);
+    box-shadow: 0 0 10px rgba(255, 87, 51, 0.4);
     padding: 50px;
     margin: 30px;
-    background-color: rgba(255, 230, 0, 0.5);
+    background-color: rgba(255, 87, 51, 0.5);
     color: white;
     width: 90%;
 }
 
 .dept-container-right {
-    border: 2px solid rgb(254, 1, 154);
+    border: 2px solid rgb(99, 40, 235);
     border-radius: 0.5em;
-    box-shadow: 0 0 10px rgba(254, 1, 154, 0.4);
+    box-shadow: 0 0 10px rgba(99, 40, 235, 0.4);
     padding: 50px;
     margin: 30px;
-    background-color: rgba(255, 102, 196, 0.5);
+    background-color: rgba(99, 40, 235, 0.5);
     color: white;
     width: 90%;
 }
@@ -157,7 +157,7 @@
     font-weight: 600;
 }
 
-.names{
+.names {
     font-family: 'staatliches';
     font-size: 1.5rem;
 }
@@ -201,7 +201,11 @@
         font-size: 1.8rem;
     }
 
-    .titletwo{
+    .subtitle {
+        font-size: 1.4rem;
+    }
+
+    .titletwo {
         font-size: 1.3rem;
         margin-bottom: 30px;
     }
