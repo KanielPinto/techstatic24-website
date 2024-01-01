@@ -206,8 +206,8 @@ export const vertexShader = () => {
 
    vUv = uv;
 
-   noise = (1.0 *  - waves) * turbulence( decay * abs(normal + time));
-   qnoise = (2.0 *  - eqcolor) * turbulence( decay * abs(normal + time));
+   noise = (3.0 *  - waves) * turbulence( decay * abs(normal + time));
+   qnoise = (5.0 *  - eqcolor) * turbulence( decay * abs(normal + time));
    float b = pnoise( complex * (position) + vec3( 1.0 * time ), vec3( 100.0 ) );
 
    if (fragment == true) {

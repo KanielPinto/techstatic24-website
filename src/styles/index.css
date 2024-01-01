@@ -372,7 +372,7 @@ body {
     margin: auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1320px) {
     .hero-text{
         height: 90vh;
     }

@@ -9,7 +9,8 @@ import { useRouter } from "next/router";
 import PageHeader from "@/components/PageHeader";
 import "@/styles/events.css"
 import Image from 'next/image'
-
+import Footer from "@/components/Footer";
+import { TypeAnimation } from "react-type-animation";
 
 export default function EventPage() {
     const router = useRouter();
@@ -43,8 +44,24 @@ export default function EventPage() {
                     <div>
                         <PageHeader title={title} subtitle={subtitle}></PageHeader>
 
+                        <TypeAnimation
+                            sequence={[
+                                // Same substring at the start will only be typed out once, initially
+                                "Dive into the competitions and challenges!",
+                                1000,
+
+                            ]}
+                            wrapper="span"
+                            speed={20}
+                            repeat={Infinity}
+                            className="subtitle"
+                        />
+                        <div className="brochure-link">
+                            <p>For more details,</p>
+
+                        </div>
                         <div className="grid-container">
-                            <div className="vertical-container">
+                            <div className="vertical-container1">
                                 <h1>I.T. Events</h1>
                                 <div className="card-container">
 
@@ -96,7 +113,7 @@ export default function EventPage() {
 
                             </div>
 
-                            <div className="vertical-container">
+                            <div className="vertical-container2">
                                 <h1>Stats Events</h1>
                                 <div className="card-container">
 
@@ -113,7 +130,7 @@ export default function EventPage() {
                                                 <p>Episode IV</p>
 
                                                 <p className="titletwo">group event where you decode patterns , trends and insights on a randomly selected industry of the four ( sports ,travel / tourism , apparel , music ) and then present your analysis.</p>
-                                               
+
                                             </div>
                                         </div>
                                     </div>
@@ -147,7 +164,7 @@ export default function EventPage() {
                                                 <h1 className="titleone">Data Detective</h1>
                                                 <p>Murder Mystery Quest</p>
                                                 <p className="titletwo"> A group event, where you conduct analysis to narrow down suspects to one murderer.</p>
-                                                
+
                                             </div>
                                         </div>
                                     </div>
@@ -193,6 +210,8 @@ export default function EventPage() {
                                 </div>
                             </div>
                         </div>
+                        <Footer></Footer>
+
                     </div>
                 </motion.div>
             </AnimatePresence >

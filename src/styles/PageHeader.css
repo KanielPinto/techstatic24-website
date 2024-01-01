@@ -9,7 +9,7 @@
 
 
 .container {
-    margin: 8rem 0rem 4rem;
+    margin: 8rem 0rem 1rem;
     position: relative;
     width: 100%;
 }
@@ -40,18 +40,11 @@
 }
 
 
-.subtitle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 1.5rem;
-    /* color: #45dde2; */
-    font-weight: normal;
-    letter-spacing: 8px;
-    color: #fff;
 
-    background-color: transparent;
-    z-index: 99;
+
+
+@media screen and (max-width: 1320px) {
+    .title {
+        font-size: 3rem;
+    }
 }

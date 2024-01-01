@@ -13,6 +13,7 @@ import { useRouter } from 'next/router';
 const MENU_LIST = [
     { text: "Home", href: "/" },
     { text: "Events", href: "events" },
+    { text: "Announcements", href: "https://linktr.ee/Techstatic2024" },
     { text: "Our Team", href: "workforce" },
 ];
 const Navbar = () => {

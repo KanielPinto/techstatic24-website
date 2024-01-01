@@ -55,6 +55,21 @@
 
 }
 
+.subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.6rem;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: transparent;
+    z-index: 99;
+    margin-bottom: 40px;
+}
+
 .main-container {
     position: absolute;
     width: 100%;
@@ -86,14 +101,13 @@
     width: 80%;
     margin: auto;
     grid-template-columns: repeat(2, 1fr);
-    /* Two columns */
-    column-gap: 100px;
+    column-gap: 40px;
     row-gap: 30px;
-    /* Adjust the gap between containers */
+    margin-bottom: 100px;
 }
 
 /* Style for vertically long containers */
-.vertical-container {
+.vertical-container1{
     border: 2px solid rgb(99, 40, 235);
     border-radius: 0.5em;
     box-shadow: 0 0 10px rgba(254, 1, 154, 0.4);
@@ -104,6 +118,17 @@
     width: 100%;
 
 
+}
+
+.vertical-container2{
+    border: 2px solid rgb(188, 19, 254);
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px rgba(188, 19, 254, 0.4);
+    padding: 20px;
+    margin: auto;
+    background-color: rgba(188, 19, 254, 0.2);
+    color: aliceblue;
+    width: 100%;
 }
 
 /* Style for horizontally long container */
@@ -237,7 +262,7 @@
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1320px) {
     .grid-container {
         display: flex;
         flex-direction: column;
