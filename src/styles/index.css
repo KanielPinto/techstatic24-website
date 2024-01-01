@@ -397,10 +397,11 @@ body {
 
     .about-section-header {
         font-size: 2rem;
+        margin-bottom: 10px;
     }
 
     .about-section-type {
-        font-size: 5rem;
+        font-size: 4.4rem;
 
     }
 
