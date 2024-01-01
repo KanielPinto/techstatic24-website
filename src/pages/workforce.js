@@ -193,7 +193,7 @@ export default function WorkforcePage() {
                                 <div className="sides-container-right">
                                     <div className="dept-text-container">
                                         <p className="titleone">Marketing</p>
-                                        <p className="titletwo">The bread winners of techstatic 🍞💼</p>
+                                        <p className="titletwo">The bread winners of Techstatic 🍞💼</p>
                                         <p className="names">Head : Shubham Mashalkar<br />Sub Head : Sriram Ramesh<br />Sub Head : Kanak Suryavanshi</p>
 
 

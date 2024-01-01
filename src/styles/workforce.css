@@ -165,10 +165,13 @@
 @media screen and (max-width:1320px) {
     .dept-container-left {
         flex-direction: column;
+        padding: 30px 15px 30px 15px;
     }
 
     .dept-container-right {
         flex-direction: column;
+        padding: 30px 15px 30px 15px;
+
     }
 
     .vertical-container {
