@@ -103,7 +103,14 @@
     font-family: 'pixellet';
 }
 
-.sides-container {
+.sides-container-right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2px;
+}
+
+.sides-container-left {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -168,8 +175,13 @@
         padding: 0px;
     }
 
-    .sides-container {
+    .sides-container-right {
         flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .sides-container-left {
+        flex-direction: column-reverse;
         row-gap: 30px;
     }
 
@@ -183,11 +195,11 @@
     }
 
     .titleone {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .titletwo{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-bottom: 30px;
     }
 }

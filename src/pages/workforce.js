@@ -54,7 +54,7 @@ export default function WorkforcePage() {
 
                             <div className="dept-container-right">
 
-                                <div className="sides-container">
+                                <div className="sides-container-right">
                                     <div className="dept-text-container">
                                         <p className="titleone">Chairpersons</p>
                                         <p className="titletwo">Double the leadership, Quadruple the impact 💥</p>
@@ -70,7 +70,7 @@ export default function WorkforcePage() {
 
                             <div className="dept-container-left">
 
-                                <div className="sides-container">
+                                <div className="sides-container-left">
                                     <div className="dept-pic-container">
                                         <div style={{ borderRadius: '25px', overflow: 'hidden' }}>
                                             <Image src="/deptImages/admin.png" layout="responsive" width={400} height={300}></Image>
@@ -90,7 +90,7 @@ export default function WorkforcePage() {
 
                             <div className="dept-container-right">
 
-                                <div className="sides-container">
+                                <div className="sides-container-right">
                                     <div className="dept-text-container">
                                         <p className="titleone">Creatives</p>
                                         <p className="titletwo">They don&#39;t settle within the boxes; they sculpt new realities 🌟🎨🌄</p>
@@ -107,7 +107,7 @@ export default function WorkforcePage() {
 
 
                             <div className="dept-container-left">
-                                <div className="sides-container">
+                                <div className="sides-container-left">
                                     <div className="dept-pic-container">
                                         <div style={{ borderRadius: '25px', overflow: 'hidden' }}>
                                             <Image src="/deptImages/devs.png" layout="responsive" width={400} height={300}></Image>
@@ -123,7 +123,7 @@ export default function WorkforcePage() {
                             </div>
 
                             <div className="dept-container-right">
-                                <div className="sides-container">
+                                <div className="sides-container-right">
                                     <div className="dept-text-container">
                                         <p className="titleone">Events &#40;I.T.&#41;</p>
                                         <p className="titletwo">Ctrl + Alt + Create💻✨</p>
@@ -139,7 +139,7 @@ export default function WorkforcePage() {
 
                             <div className="dept-container-left">
 
-                                <div className="sides-container">
+                                <div className="sides-container-left">
                                     <div className="dept-pic-container">
                                         <div style={{ borderRadius: '25px', overflow: 'hidden' }}>
                                             <Image src="/deptImages/eventsStats.png" layout="responsive" width={400} height={300}></Image>
@@ -156,7 +156,7 @@ export default function WorkforcePage() {
 
                             <div className="dept-container-right">
 
-                                <div className="sides-container">
+                                <div className="sides-container-right">
                                     <div className="dept-text-container">
                                         <p className="titleone">Finance</p>
                                         <p className="titletwo">They may be the finance bros of techstatic, but we know we can 	&#39;bank	&#39; on them🫡💸</p>
@@ -173,7 +173,7 @@ export default function WorkforcePage() {
 
 
                             <div className="dept-container-left">
-                                <div className="sides-container">
+                                <div className="sides-container-left">
                                     <div className="dept-pic-container">
                                         <div style={{ borderRadius: '25px', overflow: 'hidden' }}>
                                             <Image src="/deptImages/fnd.png" layout="responsive" width={400} height={300}></Image>
@@ -190,7 +190,7 @@ export default function WorkforcePage() {
 
                             <div className="dept-container-right">
 
-                                <div className="sides-container">
+                                <div className="sides-container-right">
                                     <div className="dept-text-container">
                                         <p className="titleone">Marketing</p>
                                         <p className="titletwo">The bread winners of techstatic 🍞💼</p>
@@ -207,7 +207,7 @@ export default function WorkforcePage() {
                             </div>
 
                             <div className="dept-container-left">
-                                <div className="sides-container">
+                                <div className="sides-container-left">
                                     <div className="dept-pic-container">
                                         <div style={{ borderRadius: '25px', overflow: 'hidden' }}>
                                             <Image src="/deptImages/venman.png" layout="responsive" width={400} height={300}></Image>
@@ -222,7 +222,7 @@ export default function WorkforcePage() {
                             </div>
 
                             <div className="dept-container-right">
-                                <div className="sides-container">
+                                <div className="sides-container-right">
                                     <div className="dept-text-container">
                                         <p className="titleone">PR</p>
                                         <p className="titletwo">Hype kardo guys&#33;&#33;&#33;</p>
@@ -241,7 +241,7 @@ export default function WorkforcePage() {
 
                             <div className="dept-container-left">
 
-                                <div className="sides-container">
+                                <div className="sides-container-left">
                                     <div className="dept-pic-container">
                                         <div style={{ borderRadius: '25px', overflow: 'hidden' }}>
                                             <Image src="/deptImages/conclave.png" layout="responsive" width={400} height={300}></Image>
