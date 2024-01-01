@@ -18,7 +18,7 @@ main {
     justify-content: center;
     align-items: center;
     margin: 50px 0px;
-    z-index: 999;
+    z-index: 1;
     background-color: transparent;
     height: fit-content;
 }
@@ -154,7 +154,7 @@ main .cards .card .bottom-flip {
 
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1320px) {
     main h1 {
         font-size: 31px;
     }

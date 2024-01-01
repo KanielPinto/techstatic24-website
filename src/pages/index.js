@@ -14,7 +14,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
 import { TypeAnimation } from "react-type-animation";
 import Countdown from "@/components/Countdown";
-
+import Footer from "@/components/Footer";
 
 export default function IndexPage() {
     const router = useRouter();
@@ -58,9 +58,9 @@ export default function IndexPage() {
                                     900,
                                     "A Statistics Festival.",
                                     900,
-                                    "A Celebration of Tech.",
-                                    900,
-                                    "The Best (and only) IT x Stats Fest.",
+                                    "A Cool Department Fest.",
+                                    1000,
+                                    "A Hub for Learning About Modern Tech.",
                                     1000,
                                     "All of these AND MORE!!!",
                                     1000,
@@ -118,7 +118,10 @@ export default function IndexPage() {
                                 </svg>
                             </div>
                         </div>
+
                     </div>
+                    <Footer></Footer>
+
                 </div>
             </motion.div>
         </AnimatePresence >
