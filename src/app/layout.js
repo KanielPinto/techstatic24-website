@@ -1,5 +1,6 @@
 import "@/app/globals.css"
 import Navbar from "@/components/Navbar"
+import Head from "next/head"
 
 export const metadata = {
   title: 'Techstatic 2024 - A Digital Odyssey',
@@ -10,8 +11,11 @@ export default function RootLayout({ children }) {
 
   return (
     <html crossOrigin="anonymous" lang="en">
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+      </Head>
       <body>
-          {children}
+        {children}
       </body>
     </html>
   )

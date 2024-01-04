@@ -160,7 +160,7 @@ export default function WorkforcePage() {
                                     <div className="dept-text-container">
                                         <p className="titleone">Finance</p>
                                         <p className="titletwo">They may be the finance bros of techstatic, but we know we can 	&#39;bank	&#39; on them🫡💸</p>
-                                        <p className="names">Coordinator : Shravani Kale<br />Coordinator : Meghna Patil</p>
+                                        <p className="names">Coordinator : Shravani Kale<br />Coordinator : Meghana Patil</p>
 
                                     </div>
                                     <div className="dept-pic-container">
