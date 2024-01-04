@@ -1,5 +1,6 @@
 import "@/app/globals.css"
 import Navbar from "@/components/Navbar"
+import Head from "next/head"
 
 export const metadata = {
   title: 'Techstatic 2024 - A Digital Odyssey',
