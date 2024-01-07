@@ -1,0 +1,45 @@
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto;
+  }
+  
+  .slide {
+    width: 100%;
+    max-width: 100%; 
+    height: calc(100vh - 80px); 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; 
+  }
+  
+  
+  .prevButton,
+.nextButton {
+  position: fixed;
+  top: 50%; 
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  color: aliceblue;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+.prevButton:hover,
+.nextButton:hover {
+  transform: scale(1.1) translateX(3px); /* Adjust the values as needed */
+}
+.prevButton {
+  left: 20px;
+  transform: translateY(-50%); 
+}
+
+.nextButton {
+  right: 20px;
+  transform: translateY(-50%); 
+}
