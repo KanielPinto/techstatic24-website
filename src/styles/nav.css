@@ -167,6 +167,10 @@ nav.transparent {
     width: 75%;
 }
 
+#bar4 {
+    width: 80%;
+}
+
 #checkbox:checked+.toggle .bars {
     position: absolute;
     transition-duration: .5s;
