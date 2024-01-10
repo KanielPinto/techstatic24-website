@@ -95,36 +95,36 @@ export default function Countdown() {
     return (
 
         <main>
-            <div class='cards'>
+            <div className='cards'>
 
-                <div class='card days'>
-                    <div class='flip-card'>
-                        <div class='top-half'>00</div>
-                        <div class='bottom-half'>00</div>
+                <div className='card days'>
+                    <div className='flip-card'>
+                        <div className='top-half'>00</div>
+                        <div className='bottom-half'>00</div>
                     </div>
                     <p>Days</p>
                 </div>
 
-                <div class='card hours'>
-                    <div class='flip-card'>
-                        <div class='top-half'>00</div>
-                        <div class='bottom-half'>00</div>
+                <div className='card hours'>
+                    <div className='flip-card'>
+                        <div className='top-half'>00</div>
+                        <div className='bottom-half'>00</div>
                     </div>
                     <p>Hours</p>
                 </div>
 
-                <div class='card minutes'>
-                    <div class='flip-card'>
-                        <div class='top-half'>00</div>
-                        <div class='bottom-half'>00</div>
+                <div className='card minutes'>
+                    <div className='flip-card'>
+                        <div className='top-half'>00</div>
+                        <div className='bottom-half'>00</div>
                     </div>
                     <p>Minutes</p>
                 </div>
 
-                <div class='card seconds'>
-                    <div class='flip-card'>
-                        <div class='top-half'>00</div>
-                        <div class='bottom-half'>00</div>
+                <div className='card seconds'>
+                    <div className='flip-card'>
+                        <div className='top-half'>00</div>
+                        <div className='bottom-half'>00</div>
                     </div>
                     <p>Seconds</p>
                 </div>
