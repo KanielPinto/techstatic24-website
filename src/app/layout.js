@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
     <html crossOrigin="anonymous" lang="en">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+        <link rel="shortcut icon" href="/static/favicon.ico" />
       </Head>
       <body>
         {children}
