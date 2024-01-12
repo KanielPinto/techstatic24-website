@@ -74,12 +74,62 @@ export default function EventPage() {
                                     ></path>
                                 </svg>
                             </a>
+                            <a
+                                class="btn-class-name-rnr"
+                                href="https://drive.google.com/file/d/1LCkv6ocvIvMu9ASukc8JSUV9s-O9UoJ5/view?usp=drive_link"
+                                type="button"
+                            >
+                                <span>View Our Rules and Regulations</span>
+                                <svg
+                                    viewBox="0 0 320 512"
+                                    height="2em"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                    ></path>
+                                </svg>
+                            </a>
 
                         </div>
                         <div className="grid-container">
                             <div className="vertical-container1">
                                 <h1>I.T. Events</h1>
+                                <a
+                                    class="reg-form-link-it"
+                                    href="https://forms.gle/TBVC51BmmYrGVf7z9"
+                                    type="button"
+                                >
+                                    <span>Participant Reg Forms : I.T.</span>
+                                    <svg
+                                        viewBox="0 0 320 512"
+                                        height="1.5em"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                        ></path>
+                                    </svg>
+                                </a>
+
+                                <a
+                                    class="reg-form-link-it"
+                                    href="https://forms.gle/LA4fZDwC7j6xnzfX7"
+                                    type="button"
+                                >
+                                    <span>PRNC Pre-reg Forms : I.T.</span>
+                                    <svg
+                                        viewBox="0 0 320 512"
+                                        height="1.5em"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                        ></path>
+                                    </svg>
+                                </a>
                                 <div className="card-container">
+
 
                                     <div className="myCard">
                                         <div className="innerCard">
@@ -131,6 +181,38 @@ export default function EventPage() {
 
                             <div className="vertical-container2">
                                 <h1>Stats Events</h1>
+                                <a
+                                    class="reg-form-link-stats"
+                                    href="https://forms.gle/G9DwEeTGtahPLkki7"
+                                    type="button"
+                                >
+                                    <span>Participant Reg Forms : Stats</span>
+                                    <svg
+                                        viewBox="0 0 320 512"
+                                        height="1.5em"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                        ></path>
+                                    </svg>
+                                </a>
+                                <a
+                                    class="reg-form-link-stats"
+                                    href="https://forms.gle/me9FkNQwDTCej5nK8"
+                                    type="button"
+                                >
+                                    <span>PRNC Pre-reg Forms : Stats</span>
+                                    <svg
+                                        viewBox="0 0 320 512"
+                                        height="1.5em"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                        ></path>
+                                    </svg>
+                                </a>
                                 <div className="card-container">
 
                                     <div className="myCard">
@@ -190,6 +272,40 @@ export default function EventPage() {
 
                             <div className="horizontal-container">
                                 <h1>Crossover Events</h1>
+                                <div className="btn-flexbox">
+                                    <a
+                                        class="reg-form-link-crossover"
+                                        href="https://forms.gle/Uhtx69d2KyQajhiN8"
+                                        type="button"
+                                    >
+                                        <span>Participant Reg Forms : Crossover</span>
+                                        <svg
+                                            viewBox="0 0 320 512"
+                                            height="1.5em"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                            ></path>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        class="reg-form-link-crossover"
+                                        href="https://forms.gle/C5GhTnbupkaDu6sP9"
+                                        type="button"
+                                    >
+                                        <span>PRNC Pre-Reg Forms : Crossover</span>
+                                        <svg
+                                            viewBox="0 0 320 512"
+                                            height="1.5em"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                            ></path>
+                                        </svg>
+                                    </a>
+                                </div>
 
                                 <div className="card-container">
 

@@ -96,6 +96,213 @@
     box-shadow: 0 0 0 5px rgb(92, 225, 230);
 }
 
+
+.btn-class-name-rnr {
+    color: rgb(254, 234, 246);
+    border-radius: 0.5em;
+    transition: 0.3s;
+    background-color: rgba(213, 107, 255, 0.2);
+    fill: rgb(213, 107, 255);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border: 2px solid rgb(213, 107, 255);
+    box-shadow: 0 0 10px rgba(213, 107, 255, 0.4);
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: 0.5em 1em;
+    margin: 1em;
+    width: max-content;
+}
+
+.btn-class-name-rnr:hover {
+    box-shadow: 0 0 0 5px rgba(213, 107, 255, 0.5);
+}
+
+.btn-class-name-rnr span {
+    transform: scale(0.95);
+    transition: 0.3s;
+}
+
+.btn-class-name-rnr:hover span {
+    transform: scale(1);
+}
+
+.btn-class-name-rnr svg {
+    font-size: 0;
+    transform: scale(0.5) translateX(0%) rotate(-180deg);
+    transition: 0.3s;
+}
+
+.btn-class-name-rnr:hover svg {
+    font-size: 20px;
+    transform: scale(1) translateX(20%) rotate(0deg);
+}
+
+.btn-class-name-rnr:active {
+    transition: 0s;
+    box-shadow: 0 0 0 5px rgb(213, 107, 255);
+}
+
+
+
+.reg-form-link-it {
+    color: rgb(254, 234, 246);
+    border-radius: 0.5em;
+    transition: 0.3s;
+    background-color: rgba(254, 1, 154, 0.2);
+    fill: rgb(254, 1, 154);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border: 2px solid rgb(254, 1, 154);
+    box-shadow: 0 0 10px rgba(254, 1, 154, 0.4);
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 1em;
+    margin: 1em auto;
+    width: 70%;
+}
+
+.reg-form-link-it:hover {
+    box-shadow: 0 0 0 5px rgba(254, 1, 154, 0.5);
+}
+
+.reg-form-link-it span {
+    transform: scale(0.95);
+    transition: 0.3s;
+}
+
+.reg-form-link-it:hover span {
+    transform: scale(1);
+}
+
+.reg-form-link-it svg {
+    font-size: 20px;
+    transform: scale(1) translateX(20%) rotate(0deg);
+    transition: 0.3s;
+}
+
+
+
+.reg-form-link-it:active {
+    transition: 0s;
+    box-shadow: 0 0 0 5px rgb(254, 1, 154);
+}
+
+
+.reg-form-link-stats {
+    color: rgb(254, 234, 246);
+    border-radius: 0.5em;
+    transition: 0.3s;
+    background-color: rgba(255, 87, 51, 0.2);
+    fill: rgb(255, 87, 51);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border: 2px solid rgb(255, 87, 51);
+    box-shadow: 0 0 10px rgba(255, 87, 51, 0.4);
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 1em;
+    margin: 1em auto;
+    width: 70%;
+}
+
+.reg-form-link-stats:hover {
+    box-shadow: 0 0 0 5px rgba(255, 87, 51, 0.5);
+}
+
+.reg-form-link-stats span {
+    transform: scale(0.95);
+    transition: 0.3s;
+}
+
+.reg-form-link-stats:hover span {
+    transform: scale(1);
+}
+
+.reg-form-link-stats svg {
+    font-size: 20px;
+    transform: scale(1) translateX(20%) rotate(0deg);
+    transition: 0.3s;
+}
+
+
+
+.reg-form-link-stats:active {
+    transition: 0s;
+    box-shadow: 0 0 0 5px rgb(255, 87, 51);
+}
+
+.reg-form-link-crossover {
+    color: rgb(254, 234, 246);
+    border-radius: 0.5em;
+    transition: 0.3s;
+    background-color: rgba(99, 40, 235, 0.2);
+    fill: rgb(99, 40, 235);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border: 2px solid rgb(99, 40, 235);
+    box-shadow: 0 0 10px rgba(99, 40, 235, 0.4);
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 1em;
+    margin: 1em auto;
+    width: 70%;
+}
+
+.reg-form-link-crossover:hover {
+    box-shadow: 0 0 0 5px rgba(99, 40, 235, 0.5);
+}
+
+.reg-form-link-crossover span {
+    transform: scale(0.95);
+    transition: 0.3s;
+}
+
+.reg-form-link-crossover:hover span {
+    transform: scale(1);
+}
+
+.reg-form-link-crossover svg {
+    font-size: 20px;
+    transform: scale(1) translateX(20%) rotate(0deg);
+    transition: 0.3s;
+}
+
+
+
+.reg-form-link-crossover:active {
+    transition: 0s;
+    box-shadow: 0 0 0 5px rgb(99, 40, 235);
+}
+
+
+
 .subtitle {
     display: flex;
     align-items: center;
@@ -193,6 +400,11 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+    column-gap: 50px;
+}
+
+.btn-flexbox {
+    display: flex;
     column-gap: 50px;
 }
 
@@ -357,17 +569,40 @@
         font-size: 1rem;
     }
 
-    .subtitle{
-       font-size: 1.4rem; 
+    .subtitle {
+        font-size: 1.4rem;
     }
 
-    .brochure-link{
+    .brochure-link {
         font-size: 1.3rem;
     }
 
-    .btn-class-name{
+    .btn-class-name {
         font-size: 1.3rem;
         width: 90%;
         text-align: center;
+    }
+
+    .btn-class-name-rnr {
+        font-size: 1.3rem;
+        width: 90%;
+        text-align: center;
+    }
+
+
+    .btn-flexbox {
+        flex-direction: column;
+    }
+
+    .reg-form-link-it{
+        font-size: 1rem;
+    }
+
+    .reg-form-link-stats{
+        font-size: 1rem;
+    }
+
+    .reg-form-link-crossover{
+        font-size: 1rem;
     }
 }
