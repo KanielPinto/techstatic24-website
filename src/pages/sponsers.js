@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
 import PageHeader from "@/components/PageHeader";
 import "@/styles/sponsers.css";
+import Image from 'next/image';
 
 
 export default function WorkforcePage() {
@@ -41,7 +42,7 @@ export default function WorkforcePage() {
                     <article className="c-cardd">
       
                       <header className="c-card__header">
-                        <img src="https://cdn.dailypicked.com/wp-content/uploads/2019/08/natural-ice-cream-logo.jpeg"  className="c-card__image" alt="Card Image" /> 
+                        <Image src="https://cdn.dailypicked.com/wp-content/uploads/2019/08/natural-ice-cream-logo.jpeg"  className="c-card__image" alt="Card Image" /> 
                       </header>
   
                       <div className="c-card__body">
@@ -77,7 +78,7 @@ export default function WorkforcePage() {
                      <article className="c-cardd">
       
                       <header className="c-card__header">
-                        <img src="https://th.bing.com/th/id/OIP.TPGX2n5t4zj56NM58fUO2wHaEK?rs=1&pid=ImgDetMain"  className="c-card__image" alt="Card Image" /> 
+                        <Image src="https://th.bing.com/th/id/OIP.TPGX2n5t4zj56NM58fUO2wHaEK?rs=1&pid=ImgDetMain"  className="c-card__image" alt="Card Image" /> 
                       </header>
   
                       <div className="c-card__body">
@@ -113,7 +114,7 @@ export default function WorkforcePage() {
                      <article className="c-cardd">
       
                       <header className="c-card__header">
-                        <img src="https://logodix.com/logo/590190.jpg"  className="c-card__image" alt="Card Image" /> 
+                        <Image src="https://logodix.com/logo/590190.jpg"  className="c-card__image" alt="Card Image" /> 
                       </header>
   
                       <div className="c-card__body">
@@ -149,7 +150,7 @@ export default function WorkforcePage() {
                      <article className="c-cardd">
       
                       <header className="c-card__header">
-                        <img src="https://logos-world.net/wp-content/uploads/2020/04/HM-Logo-1968-1999.png"  className="c-card__image" alt="Card Image" /> 
+                        <Image src="https://logos-world.net/wp-content/uploads/2020/04/HM-Logo-1968-1999.png"  className="c-card__image" alt="Card Image" /> 
                       </header>
   
                       <div className="c-card__body">
@@ -185,7 +186,7 @@ export default function WorkforcePage() {
                      <article className="c-cardd">
       
                       <header className="c-card__header">
-                        <img src="https://www.unicothings.com/wp-content/uploads/2021/08/Croc-Slogans-1140x665.jpg"  className="c-card__image" alt="Card Image" /> 
+                        <Image src="https://www.unicothings.com/wp-content/uploads/2021/08/Croc-Slogans-1140x665.jpg"  className="c-card__image" alt="Card Image" /> 
                       </header>
   
                       <div className="c-card__body">
@@ -221,7 +222,7 @@ export default function WorkforcePage() {
                      <article className="c-cardd">
       
                       <header className="c-card__header">
-                        <img src="https://logolook.net/wp-content/uploads/2021/01/Dabur-Logo.png"  className="c-card__image" alt="Card Image" /> 
+                        <Image src="https://logolook.net/wp-content/uploads/2021/01/Dabur-Logo.png"  className="c-card__image" alt="Card Image" /> 
                       </header>
   
                       <div className="c-card__body">
