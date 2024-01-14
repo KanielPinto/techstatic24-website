@@ -16,7 +16,7 @@ const MENU_LIST = [
     { text: "Our Team", href: "workforce" },
     { text: "Merchandise",href:"merchendise"},
     { text: "Sponsers",href:"sponsers"},
-    { text: "Sponserstwo",href:"sponserstwo"}
+    
 ];
 const Navbar = () => {
     const [navActive, setNavActive] = useState(null);
