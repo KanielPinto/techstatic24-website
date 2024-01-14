@@ -1,0 +1,94 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  backdrop-filter: hue-rotate(90deg);
+
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 80px; 
+  
+}
+
+.c-cardd {
+  max-width: 450px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative; 
+  transition: transform 0.3s ease;
+}
+.c-cardd:hover {
+  transform: scale(1.05); 
+}
+
+
+.c-card__body {
+  padding: 20px;
+  background-color: rgba(255, 129, 51, 0.5);
+
+}
+
+
+.c-card__header {
+  position: relative;
+  overflow: hidden;
+}
+
+.c-card__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.icons {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icons button {
+  background-color: #fcfbfb;
+  border: none;
+  cursor: pointer;
+}
+
+.icons ion-icon {
+  font-size: 24px;
+}
+
+.c-card__intro {
+  color: #000; 
+}
+
+.c-card__title {
+  color: #000;
+  text-align: center;
+}
+
+
+/* .instagram-link {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url('https://www.transparentpng.com/thumb/logo-instagram/YfpFOL-logo-instagram-free-transparent.png') no-repeat center center;
+  background-color: black;
+  background-size: cover;
+   margin-bottom: 10px;
+  text-decoration: none !important;
+} */
