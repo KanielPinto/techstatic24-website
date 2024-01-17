@@ -17,6 +17,7 @@ const MENU_LIST = [
     // { text: "Gallery", href: "gallery" },
 
     { text: "Our Team", href: "workforce" },
+    // { text: "Activities", href: "activities" },
 ];
 const Navbar = () => {
     const [navActive, setNavActive] = useState(null);
@@ -57,6 +58,8 @@ const Navbar = () => {
                         <div id="bar1" className="bars"></div>
                         <div id="bar2" className="bars"></div>
                         <div id="bar3" className="bars"></div>
+                        <div id="bar4" className="bars"></div>
+
                     </label>
                 </div>
                 <div className={`${navActive ? "active" : ""} nav__menu-list`}>
