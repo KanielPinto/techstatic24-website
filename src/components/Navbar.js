@@ -15,7 +15,7 @@ const MENU_LIST = [
     { text: "Events", href: "events" },
     { text: "Announcements", href: "https://linktr.ee/Techstatic2024" },
     { text: "Our Team", href: "workforce" },
-    { text: "Activities", href: "activities" },
+    // { text: "Activities", href: "activities" },
 ];
 const Navbar = () => {
     const [navActive, setNavActive] = useState(null);
