@@ -91,10 +91,8 @@
 }
 
 
-.img-container {
+.img-container, .img-container-2 {
     display: flex;
-    width: 40%;
-    backface-visibility: hidden;
     justify-content: center;
     align-items: center;
 }
@@ -113,6 +111,7 @@
     width: 90%;
     height: 254px;
     perspective: 1000px;
+    
 }
 
 .frontSide,
@@ -129,7 +128,7 @@
     border-radius: 1rem;
     color: white;
     box-shadow: 0 0 0.3em rgba(232, 206, 229, 0.895);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
     opacity: 0.85;
 }
@@ -151,7 +150,9 @@
 }
 
 .backSide {
-    transform: translateX(-100%) rotateY(-180deg);
+    transform: rotateX(180deg);
+    font-size: 1.2rem;
+    padding: 3%;
 }
 
 .frontSide::before,
@@ -176,30 +177,37 @@
 }
 
 .description-container:hover .innerCard {
-    transform: translateX(-100%) rotateY(-180deg);
+    transform: rotateX(180deg);
 }
 
 .activity-title {
     font-family: 'pixellet', sans-serif;
     line-height: 2;
-    font-size: 3rem;
-    color: rgba(50, 5, 83, 0.767);
+    font-size: 2.3rem;
+    color: rgba(103, 46, 143, 0.884);
     text-align: center;
     text-shadow:
         0 0 7px #ffffff7e,
         0 0 10px #ffffff7e,
         0 0 21px #ffffff7e,
-        0 0 42px #45dde259,
-        0 0 82px #45dde244,
-        0 0 92px #45dde25e,
-        0 0 102px #45dde244,
-        0 0 151px #45dde24b;
+        0 0 42px #d749af59,
+        0 0 82px #d769c844,
+        0 0 92px #df6dce5e,
+        0 0 102px #b552ab44,
+        0 0 151px #c976bf4b;
 }
 
 .frontSide p {
     color:rgb(252, 250, 249);
 }
 
+.frontSide .tap {
+    margin-top: 5%;
+    color:rgb(252, 250, 249);
+    font-family: 'Orbitron';
+    font-size: 1.0rem;
+    font-weight: 300;
+}
 
 
 @keyframes animate {
@@ -216,8 +224,6 @@
     }
 }
 
-
-
 @media screen and (max-width: 1320px) {
  
     .horizontal-container-1 {
@@ -230,6 +236,7 @@
         flex-wrap: wrap-reverse;
         padding: 30px 15px 30px 15px;
     }
+
 
     *::-webkit-scrollbar {
         width: 0px;
@@ -262,5 +269,25 @@
 
     .activity-title {
         font-size: 1.8rem;
+        line-height: 1;
+        margin-bottom: 10%;
+    }
+
+    .frontSide p {
+        font-size: 1.1rem;
+    }
+
+    .frontSide .tap {
+        font-size: 0.8rem;
+        margin-top: 10%;
+    }
+
+    .img-container-2 {
+        margin-left: 23%;
+    }
+
+    .img-container, .img-container-2 {
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 }

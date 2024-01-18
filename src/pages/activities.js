@@ -63,7 +63,7 @@ export default function EventPage() {
 
                                     <div className="img-container">
                                         <div style={{ overflow: 'hidden'}} >
-                                            <Image src="/activityImages/arcade-img-removebg-preview.png" layout="responsive" width={100} height={100}></Image>
+                                            <Image src="/activityImages/memory game.png" layout="responsive" width={200} height={200}></Image>
                                         </div>
                                     </div>
 
@@ -74,14 +74,15 @@ export default function EventPage() {
                                             <div className="innerCard">
 
                                                 <div className="frontSide">
-                                                    <h1 class="activity-title">ARCADE MACHINE</h1>
-                                                    <p>Arcade station for everyone to play</p><br />
+                                                    <h1 class="activity-title">MEMORY GAME</h1>
                                                     <p>Venue: College Hall</p>
-                                                    <p>Date: 19. 01. 24</p>
+                                                    <p>Date: 20. 01. 24</p>
+                                                    <p className="tap">Tap to know more</p>
+
                                                 </div>
 
                                                 <div className="backSide">
-                                                    <p className="card-info">Get ready for the ultimate showdown in our Esports Competition! Contingents face off in thrilling online gaming tournaments featuring popular titles like Valorant, call of duty, etc.</p>
+                                                    <p className="card-info">Immerse yourself in the ultimate challenge of wit and recall with our Memory Game Show! Test your memory prowess with series of patterns, sequences, and puzzles for you to remember and replicate.</p>
 
                                                 </div>
 
@@ -104,14 +105,14 @@ export default function EventPage() {
                                                     <div className="frontSide">
                                                         {/* <Image src="/icons/elympics.png" width={100} height={100}></Image>
                                                         */}
-                                                    <h1 class="activity-title">MERCH SALE</h1>
+                                                    <h1 class="activity-title">RETRO GAME CABINET</h1>
                                                     <p>Venue: College Hall</p>
-                                                    <p>Date: 19. 01. 24</p>
-                                                        
+                                                    <p>Date: 20. 01. 24</p>
+                                                    <p className="tap">Tap to know more</p>
                                                     </div>
 
                                                     <div className="backSide">
-                                                        <p className="card-info">Get ready for the ultimate showdown in our Esports Competition! Contingents face off in thrilling online gaming tournaments featuring popular titles like Valorant, call of duty, etc.</p>
+                                                        <p className="card-info">Experience the nostalgia of classic arcade cabinets, challenge friends in timeless games, and celebrate the enduring appeal of retro gaming. Join us for a blast from the past, where technology evolution meets timeless fun</p>
 
                                                     </div>
 
@@ -122,9 +123,9 @@ export default function EventPage() {
                                         </div> { /* description-container ends */ }
 
                                     
-                                        <div className="img-container">
+                                        <div className="img-container-2">
                                             <div style={{ overflow: 'hidden' }}>
-                                                <Image src="/activityImages/arcade-img-removebg-preview.png" layout="responsive" width={200} height={200}></Image>
+                                                <Image src="/activityImages/retro game cabinet.png" layout="responsive" width={200} height={200}></Image>
                                             </div>
 
                                         </div>
@@ -136,7 +137,7 @@ export default function EventPage() {
 
                                 <div className="img-container">
                                     <div style={{overflow: 'hidden'}}>
-                                        <Image src="/activityImages/arcade-img-removebg-preview.png" layout="responsive" width={200} height={200}></Image>
+                                        <Image src="/activityImages/dart.png" layout="responsive" width={200} height={200}></Image>
                                     </div>
                                 </div>
 
@@ -146,13 +147,15 @@ export default function EventPage() {
 
                                         <div className="innerCard">
                                             <div className="frontSide">
-                                                <h1 class="activity-title">GAME LOUNGE</h1> 
+                                                <h1 class="activity-title">D.A.R.T (Digital Art Gallery)</h1> 
                                                 <p>Venue: College Hall</p>
-                                                <p>Date: 19. 01. 24</p>                                               
+                                                <p>Date: 20. 01. 24</p> 
+                                                <p className="tap">Tap to know more</p>
+
                                             </div>
 
                                             <div className="backSide">
-                                                <p className="card-info">Get ready for the ultimate showdown in our Esports Competition! Contingents face off in thrilling online gaming tournaments featuring popular titles like Valorant, call of duty, etc.</p>
+                                                <p className="card-info">Immerse yourself in a captivating display of digital masterpieces crafted by talented students. From stunning illustrations to cutting-edge digital designs, witness the fusion of art and technology.</p>
 
                                             </div>
                                         </div> { /* innerCard container ends */ }
@@ -173,12 +176,13 @@ export default function EventPage() {
                                                     <div className="frontSide">
                                                     <h1 class="activity-title">THE EXHIBITION</h1>
                                                     <p>Venue: College Hall</p>
-                                                    <p>Date: 19. 01. 24</p>
-                                                        
+                                                    <p>Date: 20. 01. 24</p>
+                                                    <p className="tap">Tap to know more</p>
+                                
                                                     </div>
 
                                                     <div className="backSide">
-                                                        <p className="card-info">Get ready for the ultimate showdown in our Esports Competition! Contingents face off in thrilling online gaming tournaments featuring popular titles like Valorant, call of duty, etc.</p>
+                                                        <p className="card-info"> From robotics to AI, witness the future unfolding before your eyes. Engage with hands-on demonstrations and explore the forefront of technology. Join us for an inspiring journey through the realms of creativity and discovery at this must-see exhibition!</p>
 
                                                     </div>
 
@@ -189,9 +193,9 @@ export default function EventPage() {
                                         </div> { /* description-container ends */ }
 
                                     
-                                        <div className="img-container">
+                                        <div className="img-container-2">
                                             <div style={{overflow: 'hidden'}}>
-                                                <Image src="/activityImages/arcade-img-removebg-preview.png" layout="responsive" width={200} height={200}></Image>
+                                                <Image src="/activityImages/exhibition.png" layout="responsive" width={200} height={200}></Image>
                                             </div>
                                         </div>
 
