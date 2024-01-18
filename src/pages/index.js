@@ -1,10 +1,6 @@
 'use client'
 
-import * as THREE from "three";
-import perlin, { material, options } from "../app/perlin";
-import dynamic from "next/dynamic";
-import { useEffect } from "react"
-
+import Image from "next/image";
 import "@/styles/index.css"
 import "@/app/globals.css"
 import Navbar from "@/components/Navbar"
@@ -149,6 +145,15 @@ export default function IndexPage() {
                                     ></path>
                                 </svg>
                             </div>
+                        </div>
+
+                    </div>
+                    <div className="schedule-section">
+                        <div className="events-section-header">Events Schedule</div>
+                        <div className="schedule-horizontal-container">
+                            <Image src="/techstatic-day1.jpeg" width={700} height={525} layout="responsive"></Image>
+                            <Image src="/techstatic-day2.jpeg" width={700} height={525} layout="responsive"></Image>
+
                         </div>
 
                     </div>

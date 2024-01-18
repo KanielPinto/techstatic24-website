@@ -249,6 +249,15 @@ body {
     font-size: 3rem;
     text-align: center;
     font-family: 'pixellet', sans-serif;
+    text-shadow:
+        0 0 7px #ffffff7e,
+        0 0 10px #ffffff7e,
+        0 0 21px #ffffff7e,
+        0 0 42px #45dde259,
+        0 0 82px #45dde244,
+        0 0 92px #45dde25e,
+        0 0 102px #45dde244,
+        0 0 151px #45dde24b;
 }
 
 .events-section-subtitle {
@@ -476,6 +485,29 @@ body {
     box-shadow: 0 0 0 5px rgb(255, 201, 51);
 }
 
+
+.schedule-section {
+    height: 91vh;
+    font-size: 2rem;
+    backdrop-filter: hue-rotate(86deg);
+    color: white;
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.schedule-horizontal-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: auto;
+    column-gap: 30px;
+}
+
 @media screen and (max-width: 1320px) {
     .hero-text {
         height: 90vh;
@@ -528,6 +560,7 @@ body {
 
     .events-section-header {
         font-size: 2.5rem;
+        line-height: 1.2;
     }
 
     .events-section-subtitle {
@@ -564,6 +597,17 @@ body {
         text-align: center;
     }
 
+    .schedule-section {
+        padding: 100px 30px 100px 30px;
+
+    }
+
+    .schedule-horizontal-container {
+        flex-direction: column;
+        width: 90%;
+        row-gap: 20px;
+
+    }
 
 
     *::-webkit-scrollbar {

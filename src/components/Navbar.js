@@ -14,8 +14,7 @@ const MENU_LIST = [
     { text: "Home", href: "/" },
     { text: "Events", href: "events" },
     { text: "Announcements", href: "https://linktr.ee/Techstatic2024" },
-    // { text: "Gallery", href: "gallery" },
-
+    { text: "Gallery", href: "gallery" },
     { text: "Our Team", href: "workforce" },
     // { text: "Activities", href: "activities" },
 ];
