@@ -129,11 +129,12 @@ export default function IndexPage() {
                                     ></path>
                                 </svg>
                             </a>
-                            <div
+                            <a
                                 class="btn-class-name2"
                                 type="button"
+                                href="/activities"
                             >
-                                <span>Check out our Exciting Activities!<br />&#40;Coming Soon&#41;</span>
+                                <span>Check out our Exciting Activities!</span>
                                 <svg
                                     viewBox="0 0 320 512"
                                     height="6.5em"
@@ -143,7 +144,7 @@ export default function IndexPage() {
                                         d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
                                     ></path>
                                 </svg>
-                            </div>
+                            </a>
                         </div>
 
                     </div>

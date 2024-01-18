@@ -15,7 +15,7 @@ import { TypeAnimation } from "react-type-animation";
 export default function EventPage() {
     const router = useRouter();
     let title = "Activities";
-    let subtitle = "check out our other activities";
+    let subtitle = "Explore what Techstatic has to offer!";
 
     return (
         <div className="main-container">

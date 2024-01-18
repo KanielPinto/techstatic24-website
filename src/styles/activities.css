@@ -65,7 +65,7 @@
     border: 2px solid rgba(217, 7, 126, 0.995);
     box-shadow: 0 0 10px rgba(188, 19, 254, 0.4);
     border-radius: 0.5em;
-    box-shadow: 0 0 10px #c6afd0c5;
+    box-shadow: 0 0 10px rgba(217, 7, 126, 0.995);
     padding: 30px 40px;
     margin: auto;
     margin-bottom: 40px;
@@ -77,10 +77,10 @@
 
 .horizontal-container-2 {
     display: flex;
-    border: 2px solid rgba(217, 7, 126, 0.995);
+    border: 2px solid rgba(255, 87, 51, 0.995);
     box-shadow: 0 0 10px rgba(188, 19, 254, 0.4);
     border-radius: 0.5em;
-    box-shadow: 0 0 10px #c6afd0c5;
+    box-shadow: 0 0 10px rgba(217, 7, 126, 0.995);
     padding: 30px 40px;
     margin: auto;
     margin-bottom: 40px;

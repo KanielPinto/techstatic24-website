@@ -13,10 +13,10 @@ import { useRouter } from 'next/router';
 const MENU_LIST = [
     { text: "Home", href: "/" },
     { text: "Events", href: "events" },
+    { text: "Activities", href: "activities" },
     { text: "Announcements", href: "https://linktr.ee/Techstatic2024" },
     { text: "Gallery", href: "gallery" },
     { text: "Our Team", href: "workforce" },
-    { text: "Activities", href: "activities" },
 ];
 const Navbar = () => {
     const [navActive, setNavActive] = useState(null);

@@ -324,16 +324,16 @@ body {
     color: rgb(254, 234, 246);
     border-radius: 0.5em;
     transition: 0.3s;
-    background-color: rgba(220, 221, 221, 0.2);
-    fill: rgb(220, 221, 221);
+    background-color: rgba(188, 19, 254, 0.2);
+    fill: rgb(188, 19, 254);
     font-family: monospace;
     font-weight: bolder;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     cursor: pointer;
-    border: 2px solid rgb(220, 221, 221);
-    box-shadow: 0 0 10px rgba(220, 221, 221, 0.4);
+    border: 2px solid rgb(188, 19, 254);
+    box-shadow: 0 0 10px rgba(188, 19, 254, 0.4);
     outline: none;
     display: flex;
     align-items: center;
@@ -344,7 +344,7 @@ body {
 }
 
 .btn-class-name2:hover {
-    box-shadow: 0 0 0 5px rgba(220, 221, 221, 0.5);
+    box-shadow: 0 0 0 5px rgba(188, 19, 254, 0.5);
 }
 
 .btn-class-name2 span {
@@ -369,7 +369,7 @@ body {
 
 .btn-class-name2:active {
     transition: 0s;
-    box-shadow: 0 0 0 5px rgb(220, 221, 221);
+    box-shadow: 0 0 0 5px rgb(188, 19, 254);
 }
 
 
