@@ -14,10 +14,10 @@ const MENU_LIST = [
     { text: "Home", href: "/" },
     { text: "Events", href: "events" },
     { text: "Activities", href: "activities" },
+    { text: "Conclave", href: "conclave" },
     { text: "Announcements", href: "https://linktr.ee/Techstatic2024" },
     { text: "Gallery", href: "gallery" },
-    { text: "Team", href: "workforce" },
-    { text: "Conclave", href: "conclave" },
+    { text: "Our Team", href: "workforce" },
 ];
 const Navbar = () => {
     const [navActive, setNavActive] = useState(null);
