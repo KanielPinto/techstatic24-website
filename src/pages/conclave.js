@@ -9,7 +9,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
 import PageHeader from "@/components/PageHeader";
 import "@/styles/conclave.css"
-import Image from 'next/image'
+import Image from 'next/image';
 import Footer from "@/components/Footer";
 import { TypeAnimation } from "react-type-animation";
 
@@ -48,7 +48,7 @@ export default function EventPage() {
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
-                                "Check out our guest speakers",
+                                "Check out our esteemed guest speakers",
                                 1000,
 
                             ]}
@@ -59,50 +59,50 @@ export default function EventPage() {
                         />
 
                         <div className="body-container">
+                        <h1 className="section-header">Keynote Speaker</h1>
 
                             <div className="content-container">
                                 <div className="card">
-                                    <h1>Keynote Speaker</h1>
                                     <div className="image">
-                                        <Image src="/conclaveImages/Ankush Bhagarwal.png" layout="responsive" width={300} height={300}></Image>
+                                        <Image src="/conclaveImages/Ankush Bhagarwal.png" layout="responsive" width={100} height={100}></Image>
                                     </div>
                                     <div className="info">
                                         <h2>Ankush Bhagarwal</h2>
-                                        <h3>Founder & CEO | COROVER.AI(& BHARATGPT)</h3>
+                                        <h3>Founder & CEO<br></br>COROVER.AI &#40;& BHARATGPT&#41;</h3>
                                         <p>A tech entrepreneur and the CEO of CoRover. He is driven by a deep passion for creating innovative tech solutions that address both business and societal challenges.</p>
                                     </div>
 
                                 </div>
                             </div>
-                            
-                                
+
+                            <h1 className="section-header">Panel Discussion</h1>
                             <div className="content-container">
 
+
                                 <div className="card">
-                                    <h1>Panel Discussions</h1>
 
                                     <div className="image">
-                                        <Image src="/conclaveImages/Dhaval Thanki.png" layout="responsive" width={300} height={300}></Image>
+                                        <Image src="/conclaveImages/Dhaval Thanki.png" layout="responsive" width={100} height={100}></Image>
                                     </div>
                                     <div className="info">
                                         <h2>dhaval Thanki</h2>
-                                        <h3>Executive Vice-President | LogiNext</h3>
-                                        <p>Executive Vice President at LogiNext - World's leading logistics automation SaaS platform. He's also on the advisory board of K. J. Somaiya Institute of Management..</p>
+                                        <h3>Executive Vice-President<br></br>LogiNext</h3>
+                                        <p>Executive Vice President at LogiNext - World&#39;s leading logistics automation SaaS platform. He&#39;s also on the advisory board of K. J. Somaiya Institute of Management..</p>
                                     </div>
 
                                 </div>
-                            
+
                             </div>
-                                
+
 
                             <div className="content-container">
                                 <div className="card">
                                     <div className="image">
-                                    <Image src="/conclaveImages/Dr. Abhijit Sarkar.png" layout="responsive" width={200} height={200}></Image>
+                                        <Image src="/conclaveImages/Dr. Abhijit Sarkar.png" layout="responsive" width={100} height={100}></Image>
                                     </div>
                                     <div className="info">
                                         <h1>Dr. Abhijit Sarkar</h1>
-                                        <h3>CEO & Board of Director | MegasGroup</h3>
+                                        <h3>CEO & Board of Director<br></br>MegasGroup</h3>
                                         <p>Dr. Abhijit Sarkar is a distinguished entrepreneur, currently holding  the position of Group Chief Executive Officer &amp; Board
                                             of Directors at the renowned design and build firm MEGAS
                                             Architectural Services Pvt Ltd
@@ -116,12 +116,12 @@ export default function EventPage() {
                                 <div className="card">
 
                                     <div className="image">
-                                    <Image src="/conclaveImages/Mahesh Parab.png" layout="responsive" width={200} height={200}></Image>
+                                        <Image src="/conclaveImages/Mahesh Parab.png" layout="responsive" width={100} height={100}></Image>
                                     </div>
                                     <div className="info">
                                         <h1>Mahesh Parab</h1>
-                                        <h3>Partner | PwC India</h3>
-                                      
+                                        <h3>Partner<br></br>PwC India</h3>
+
                                     </div>
 
                                 </div>
@@ -131,19 +131,19 @@ export default function EventPage() {
                                 <div className="card">
 
                                     <div className="image">
-                                    <Image src="/conclaveImages/Ritesh Jain.png" layout="responsive" width={200} height={200}></Image>
+                                        <Image src="/conclaveImages/Ritesh Jain.png" layout="responsive" width={100} height={100}></Image>
                                     </div>
                                     <div className="info">
                                         <h1>Ritesh Jain</h1>
-                                        <h3>Co-Founder | FlexiLoans</h3>
-                                      
+                                        <h3>Co-Founder<br></br>FlexiLoans</h3>
+
                                     </div>
 
                                 </div>
                             </div>
-                                
 
-                        </div> { /* body-container ends */ }
+
+                        </div> { /* body-container ends */}
 
                         <Footer></Footer>
                     </div>
