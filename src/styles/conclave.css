@@ -1,0 +1,246 @@
+*::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px transparent;
+    border-radius: 10px;
+    background-color: transparent;
+    z-index: 999;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+    z-index: 999;
+}
+
+@font-face {
+    font-family: "Pixellet";
+    src: url('../../public/fonts/pixellet.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Staatliches";
+    src: url('/fonts/Staatliches-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px transparent;
+    background-color: gainsboro;
+    z-index: 999;
+}
+
+
+.subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.6rem;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: transparent;
+    z-index: 99;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.main-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    backdrop-filter: hue-rotate(120deg);
+    align-items: center;
+}
+
+.body-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 5%;
+    width: 90%;
+}
+
+.content-container {
+    display: flex;
+    border: 2px solid rgba(217, 7, 126, 0.995);
+    border-radius: 0.8em;
+    box-shadow: 0 0 10px rgba(188, 19, 254, 0.4);
+    box-shadow: 0 0 10px #c6afd0c5;
+    padding: 20px 0px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    background-color: #d61e9b4b;
+    color: aliceblue;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card {
+    border-radius: 0.8em;
+    /* border: 2px solid rgb(165, 31, 192); */
+    display: flex;
+    /* background: linear-gradient(43deg, #c366c9 0%, #70b4c4 50%, rgb(243, 213, 159) 100%); */
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 5%;
+    margin-bottom: 20px;
+    padding: 3%;
+    /* box-shadow: 0 0 10px #c6afd0c5; */
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 3.0rem;
+    ;
+    font-weight: 550;
+    text-align: center;
+    font-family: 'Staatliches', sans-serif;
+    line-height: 1;
+    color: rgba(235, 224, 236, 0.934);
+    letter-spacing: 0.1em;
+    text-shadow:
+        0 0 7px #ffffff7e,
+        /* 0 0 10px #ffffff7e, */
+        /* 0 0 21px #ffffff7e, */
+        0 0 42px #d749af59,
+        0 0 82px #d769c844,
+        0 0 92px #df6dce5e,
+        0 0 102px #b552ab44,
+        0 0 151px #c976bf4b;
+}
+
+.card h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    ;
+    font-weight: 550;
+    text-align: center;
+    font-family: 'Staatliches', sans-serif;
+    line-height: 1;
+    /* color: rgba(168, 30, 199, 0.934); */
+    color: rgba(229, 219, 231, 0.934);
+    letter-spacing: 0.1em;
+    text-shadow:
+        0 0 7px #ffffff7e,
+        /* 0 0 10px #ffffff7e, */
+        /* 0 0 21px #ffffff7e, */
+        0 0 42px #d749af59,
+        0 0 82px #d769c844,
+        0 0 92px #df6dce5e,
+        /* 0 0 102px #b552ab44, */
+        0 0 151px #c976bf4b;
+}
+
+.card h3 {
+    text-align: center;
+    font-size: 1.2 rem;;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    /* color: rgba(185, 21, 183, 0.895); */
+    color: rgba(235, 219, 238, 0.934);
+    line-height: 1;
+}
+
+.card p {
+    color: rgb(253, 249, 249);
+    display: flexbox;
+    justify-content: justify;
+    align-items: justify;
+    align-content: justify;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    ;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+.info{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+
+.section-header {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'pixellet', sans-serif;
+    text-shadow:
+        0 0 7px #ffffff7e,
+        0 0 10px #ffffff7e,
+        0 0 21px #ffffff7e,
+        0 0 42px #45dde259,
+        0 0 82px #45dde244,
+        0 0 92px #45dde25e;
+}
+
+.image{
+    max-width: 400px;
+}
+@media screen and (max-width: 1320px) {
+
+    .content-container {
+        width: 98%;
+    }
+
+    /* .image {
+
+    } */
+
+    .card {
+        width: 98%;
+        /* padding: 10%; */
+    }
+
+    .card h2 {
+        line-height: 1;
+        font-size: 2.5rem;
+        /* margin-bottom: 1%; */
+        letter-spacing: 0.1em;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+    }
+
+    .card h3 {
+        font-size: 0.9rem;
+    }
+
+    .image{
+        max-width: 200px;
+    }
+
+    .info h1 {
+        font-size: 1.8rem;
+    }
+
+    .info h3 {
+        font-size: 1.0rem;
+
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .section-header {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+}
