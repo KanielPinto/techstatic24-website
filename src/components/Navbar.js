@@ -16,6 +16,7 @@ const MENU_LIST = [
     { text: "Our Team", href: "workforce" },
     { text: "Merchandise",href:"merchendise"},
     { text: "Sponsers",href:"sponsers"},
+    { text: "Results",href:"result"}
     
 ];
 const Navbar = () => {
