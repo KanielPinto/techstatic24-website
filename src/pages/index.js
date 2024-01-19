@@ -1,5 +1,6 @@
 'use client'
 
+import MerchandGame  from "@/components/MerchandGame";
 import Image from "next/image";
 import "@/styles/index.css"
 import "@/app/globals.css"
@@ -156,6 +157,18 @@ export default function IndexPage() {
 
                         </div>
 
+                    </div>
+                    <div class="container">
+                        <div class="merch">
+                            <img src="ship_A.png" alt="STARDUST ship A" id="imageqr"></img>
+                            <h1>Check out Our merch in the Woods On the 19th and 20th of January</h1>
+                            <img src="ship_F.png" alt="StartDust ship B" id="imageqr"></img>
+                        </div>
+                        <div class="game">
+                            <h1>Think you have what it Takes, scan this QR and get a highscore and get FREE MERCH!</h1>
+                            <img src="stardustqr.png" alt="StartDust Crusade" id="imageqr"></img>
+                            <h1><a href="https://stardustcrusade.vercel.app/" color>Or Click HERE</a></h1>
+                      </div>
                     </div>
                     <Footer></Footer>
 
