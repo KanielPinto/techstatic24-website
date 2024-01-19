@@ -22,22 +22,24 @@
 
 .c-cardd {
   max-width: 450px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  border: 5px solid #ddd;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   position: relative; 
   transition: transform 0.3s ease;
+  border-radius: 50px;
+ 
 }
 .c-cardd:hover {
   transform: scale(1.05); 
+  box-shadow: 0 4px 8px rgb(243, 240, 240);
 }
 
 
 .c-card__body {
   padding: 20px;
   background-color: rgba(255, 129, 51, 0.5);
-
+  height: 100%; 
 }
 
 
@@ -47,10 +49,9 @@
 }
 
 .c-card__image {
-  width: 100%;
-  height: auto;
-  display: block;
+  background-color: white;
 }
+
 
 
 .icons {
@@ -74,6 +75,10 @@
 
 .c-card__intro {
   color: #000; 
+  
+  
+
+  
 }
 
 .c-card__title {

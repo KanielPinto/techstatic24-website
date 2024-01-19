@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
 import PageHeader from "@/components/PageHeader";
 import "@/styles/sponsers.css";
-import Image from 'next/image';
+import Image from "next/image"; 
 
 
 export default function WorkforcePage() {
@@ -42,12 +42,49 @@ export default function WorkforcePage() {
                     <article className="c-cardd">
       
                       <header className="c-card__header">
-                        <Image src="https://cdn.dailypicked.com/wp-content/uploads/2019/08/natural-ice-cream-logo.jpeg"  className="c-card__image" alt="Card Image" /> 
+                      <Image src="/Seagate.jpg"  alt="seagate image " className="c-card__image" width={500} height={300} quality={80}/> 
+                       
                       </header>
   
                       <div className="c-card__body">
                           <h2 className="c-card__title">
-                             Naturals
+                             Seagate
+                          </h2>
+                          <br />
+     
+        
+                      <p className="c-card__intro" >
+                             Naturals Honestly Crafted Ice-Cream is an authentic beacon in India's industry. Crafted with care, each scoop embodies excellence - 100% Pure Milk, no preservatives, and no artificial colors. With 50+ flavors, it caters to 100+ cities.
+                        </p>
+                      </div>
+  
+                      <div className="icons">
+       
+                      <button>
+                          <a href="#" className="instagram-link"></a>
+                      </button>
+
+       
+                         {/* <button>
+                           <a href="#" className="link"> </a>
+                         </button>
+                         <button>
+                          <ion-icon name="logo-behance"></ion-icon>
+                         </button> */}
+                    </div>
+     
+  
+                     </article>
+
+                     <article className="c-cardd">
+      
+                      <header className="c-card__header">
+                      <Image src="/Finstat Academy.jpg"  alt="finstat academy  image " className="c-card__image" width={500} height={300} quality={80}/> 
+                      </header>
+  
+                      <div className="c-card__body">
+                          <h2 className="c-card__title">
+                             Finstat Academy
                           </h2>
                           <br />
      
@@ -78,12 +115,12 @@ export default function WorkforcePage() {
                      <article className="c-cardd">
       
                       <header className="c-card__header">
-                        <Image src="https://th.bing.com/th/id/OIP.TPGX2n5t4zj56NM58fUO2wHaEK?rs=1&pid=ImgDetMain"  className="c-card__image" alt="Card Image" /> 
+                      <Image src="/PEA.png"  alt="PEA  image " className="c-card__image" width={500} height={300} quality={80}/> 
                       </header>
   
                       <div className="c-card__body">
                           <h2 className="c-card__title">
-                             Swiggy
+                             Providence Education Advisory
                           </h2>
                           <br />
      
@@ -114,12 +151,12 @@ export default function WorkforcePage() {
                      <article className="c-cardd">
       
                       <header className="c-card__header">
-                        <Image src="https://logodix.com/logo/590190.jpg"  className="c-card__image" alt="Card Image" /> 
+                      <Image src="/BEBytes.jpg"  alt="finstat academy  image " className="c-card__image" width={450} height={300} quality={80}/> 
                       </header>
   
                       <div className="c-card__body">
                           <h2 className="c-card__title">
-                             Airtel
+                             B.E Bytes
                           </h2>
                           <br />
      
@@ -150,12 +187,12 @@ export default function WorkforcePage() {
                      <article className="c-cardd">
       
                       <header className="c-card__header">
-                        <Image src="https://logos-world.net/wp-content/uploads/2020/04/HM-Logo-1968-1999.png"  className="c-card__image" alt="Card Image" /> 
+                      <Image src="/Cinnabon.png"  alt="finstat academy  image " className="c-card__image" width={450} height={300} quality={80}/> 
                       </header>
   
                       <div className="c-card__body">
                           <h2 className="c-card__title">
-                             H & M
+                            Cinnabon
                           </h2>
                           <br />
      
@@ -186,12 +223,12 @@ export default function WorkforcePage() {
                      <article className="c-cardd">
       
                       <header className="c-card__header">
-                        <Image src="https://www.unicothings.com/wp-content/uploads/2021/08/Croc-Slogans-1140x665.jpg"  className="c-card__image" alt="Card Image" /> 
+                      <Image src="/Hactify.png"  alt="finstat academy  image " className="c-card__image" width={500} height={300} quality={80}/> 
                       </header>
   
                       <div className="c-card__body">
                           <h2 className="c-card__title">
-                             Crocs
+                             Hactify
                           </h2>
                           <br />
      
@@ -222,12 +259,12 @@ export default function WorkforcePage() {
                      <article className="c-cardd">
       
                       <header className="c-card__header">
-                        <Image src="https://logolook.net/wp-content/uploads/2021/01/Dabur-Logo.png"  className="c-card__image" alt="Card Image" /> 
+                      <Image src="/A1_samosas.png"  alt="finstat academy  image " className="c-card__image" width={500} height={300} quality={80}/> 
                       </header>
   
                       <div className="c-card__body">
                           <h2 className="c-card__title">
-                             Dabar
+                             A1 samosas
                           </h2>
                           <br />
      
@@ -254,6 +291,44 @@ export default function WorkforcePage() {
      
   
                      </article>
+
+                     <article className="c-cardd">
+      
+                      <header className="c-card__header">
+                      <Image src="/Crucibo.png"  alt="finstat academy  image " className="c-card__image" width={450} height={300} quality={80}/> 
+                      </header>
+  
+                      <div className="c-card__body">
+                          <h2 className="c-card__title">
+                             Crucibo
+                          </h2>
+                          <br />
+     
+        
+                      <p className="c-card__intro">
+                             Naturals Honestly Crafted Ice-Cream is an authentic beacon in India's industry. Crafted with care, each scoop embodies excellence - 100% Pure Milk, no preservatives, and no artificial colors. With 50+ flavors, it caters to 100+ cities.
+                        </p>
+                      </div>
+  
+                      <div className="icons">
+       
+                      <button>
+                          <a href="#" className="instagram-link"></a>
+                      </button>
+
+       
+                         {/* <button>
+                           <a href="#" className="link"> </a>
+                         </button>
+                         <button>
+                          <ion-icon name="logo-behance"></ion-icon>
+                         </button> */}
+                    </div>
+     
+  
+                     </article>
+
+
 
                      
                      
