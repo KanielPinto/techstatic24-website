@@ -20,7 +20,6 @@ export async function getStaticProps(context) {
 }
 
 export default function GalleryPage({ posts }) {
-    console.log(posts);
     let title = "Gallery";
     let subtitle = "A Glimpse into our Events";
     return (
