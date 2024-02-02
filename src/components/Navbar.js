@@ -16,6 +16,7 @@ const MENU_LIST = [
     { text: "Activities", href: "activities" },
     { text: "Conclave", href: "conclave" },
     { text: "Announcements", href: "https://linktr.ee/Techstatic2024" },
+    // { text: "Sponsors", href: "sponsors" },
     { text: "Gallery", href: "gallery" },
     { text: "Our Team", href: "workforce" },
 ];
