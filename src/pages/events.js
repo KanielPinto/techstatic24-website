@@ -13,9 +13,9 @@ import Footer from "@/components/Footer";
 import { TypeAnimation } from "react-type-animation";
 
 export default function EventPage() {
-    const router = useRouter();
     let title = "Events";
-    let subtitle = "A Glimpse into our Events";
+    let subtitle = "A Glimpse into our Events";    const router = useRouter();
+
 
     return (
         <div className="main-container">

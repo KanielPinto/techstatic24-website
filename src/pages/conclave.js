@@ -116,11 +116,11 @@ export default function EventPage() {
                                 <div className="card">
 
                                     <div className="image">
-                                        <Image src="/conclaveImages/Mahesh Parab.png" layout="responsive" width={100} height={100}></Image>
+                                        <Image src="/conclaveImages/badri-sanjeevni.png" layout="responsive" width={100} height={100}></Image>
                                     </div>
                                     <div className="info">
-                                        <h1>Mahesh Parab</h1>
-                                        <h3>Partner<br></br>PwC India</h3>
+                                        <h1>Badri Sanjeevni</h1>
+                                        <h3>CFO<br></br>Turtlemint</h3>
 
                                     </div>
 
