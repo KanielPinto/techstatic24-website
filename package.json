@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "babel-plugin-transform-class-properties": "^6.24.1",
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.4",
+    "@babel/plugin-transform-class-properties": "7.27.1",
     "framer-motion": "^10.16.16",
     "googleapis": "^130.0.0",
     "has-webgl": "^0.0.1",
